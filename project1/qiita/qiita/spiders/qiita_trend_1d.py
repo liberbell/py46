@@ -11,6 +11,12 @@ class QiitaTrend1dSpider(scrapy.Spider):
         titles = response.xpath("//h2/a/text()").getall()
         urls = response.xpath("//h2/a/@href").getall()
 
-        category = response.css("nav > div > a.style-c221vd::text").get()
-        titles = response.css('h2 > a::text').getall()
-        urls = response.css('h2 > a::attr(href)').getall()
+        # category = response.css("nav > div > a.style-c221vd::text").get()
+        # titles = response.css('h2 > a::text').getall()
+        # urls = response.css('h2 > a::attr(href)').getall()
+
+        yield {
+            'category': category,
+            'titles': titles,
+            'urls': urls
+        }
