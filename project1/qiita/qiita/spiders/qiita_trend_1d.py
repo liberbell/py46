@@ -7,4 +7,4 @@ class QiitaTrend1dSpider(scrapy.Spider):
     start_urls = ['http://qiita.com/']
 
     def parse(self, response):
-        pass
+        category = response.get("/html/body/div[1]/div[1]/nav/div/a[1]/text()").getall()
