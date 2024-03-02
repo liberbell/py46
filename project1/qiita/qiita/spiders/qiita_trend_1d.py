@@ -8,5 +8,5 @@ class QiitaTrend1dSpider(scrapy.Spider):
 
     def parse(self, response):
         category = response.xpath("/html/body/div[1]/div[1]/nav/div/a[1]/text()").get()
-        titles = response.xpath("//nav/div/a[1]/text()").getall()
-        url = response.xpath("//div/main/div[2]/article[1]/h2/a/@href").getall()
+        titles = response.xpath("//nav/div/a[1]/text()").get()
+        url = response.xpath("//div/main/div[2]/article[1]/h2/a/@href").get()
