@@ -12,7 +12,7 @@ BOT_NAME = 'qiita'
 SPIDER_MODULES = ['qiita.spiders']
 NEWSPIDER_MODULE = 'qiita.spiders'
 
-FEED_EXPORT_ENCORDING
+FEED_EXPORT_ENCORDING = 'utf-8'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'qiita (+http://www.yourdomain.com)'
 
