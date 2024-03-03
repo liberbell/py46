@@ -8,6 +8,7 @@ class DesktopSpider(scrapy.Spider):
 
     def parse(self, response):
         products = response.xpath("//div/a[contains(@class, 'js_productListPostTag')]")
+        # products = response.css("div > a.js_productListPostTag")
 
         yield {
             "products": products,
