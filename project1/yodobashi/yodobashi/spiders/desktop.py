@@ -11,11 +11,11 @@ class DesktopSpider(scrapy.Spider):
         # products = response.css("div > a.js_productListPostTag")
 
         for product in products:
-            maker = product.xpath(".//div/div[contains(@class, "brand")]/text()")
+            maker = product.xpath(".//div/div[contains(@class, "brand")]/text()").get()
             # maker = product.css("div > div.brand::text")
 
-            name = product.xpath(".//div/div[contains(@class, "productName")]/text()")
-            price = product.xpath(".//div/ul/li/strong[contains(@class, "js_ppSalesPrice")]/text()")
+            name = product.xpath(".//div/div[contains(@class, "productName")]/text()").get()
+            price = product.xpath(".//div/ul/li/strong[contains(@class, "js_ppSalesPrice")]/text()").get()
 
         yield {
             "products": products,
