@@ -10,6 +10,9 @@ class DesktopSpider(scrapy.Spider):
         products = response.xpath("//div/a[contains(@class, 'js_productListPostTag')]")
         # products = response.css("div > a.js_productListPostTag")
 
+        for product in products:
+            maker = product.xpath(".//div/div[contains(@class, "brand")]/text()")
+
         yield {
             "products": products,
         }
