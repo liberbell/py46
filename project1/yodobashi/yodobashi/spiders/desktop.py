@@ -23,7 +23,7 @@ class DesktopSpider(scrapy.Spider):
             brand = product.xpath(".//a/div[2][contains(@class, 'pName')]/p[1]/text()").get()
             # maker = product.css("div > div.brand::text")
 
-            name = product.xpath(".//div[contains(@class, 'pName')]/p[2]/text()").get
+            name = product.xpath(".//div[contains(@class, 'pName')]/p[2]/text()").get()
             price = product.xpath(".//ul/li[2]/span[contains(@class, 'productPrice')]/text()").get()
 
             yield {
