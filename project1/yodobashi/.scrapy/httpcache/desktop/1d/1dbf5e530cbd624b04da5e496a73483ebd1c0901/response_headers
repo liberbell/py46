@@ -9,17 +9,17 @@ Expires: Thu, 01 Dec 1994 16:00:00 GMT
 Content-Type: text/html;charset=UTF-8
 Vary: Accept-Encoding,User-Agent
 X-Cnection: close
-X-Akamai-Transformed: 9 50518 0 pmb=mTOE,1mRUM,1
+X-Akamai-Transformed: 9 50787 0 pmb=mTOE,1mRUM,1
 Content-Encoding: gzip
-Date: Mon, 04 Mar 2024 00:31:56 GMT
-Set-Cookie: yuid=B9AA86F1833731732C429BD70C5E3684; Path=/; Secure
-Set-Cookie: yid=B9AA86F1833731732C429BD70C5E3684; Domain=.yodobashi.com; Expires=Sat, 22-Mar-2092 03:46:02 GMT; Path=/; Secure
-Set-Cookie: newses=1; Domain=.yodobashi.com; Expires=Sat, 22-Mar-2092 03:46:02 GMT; Path=/; Secure
-Set-Cookie: uq=dd0a66c884615411a701e20e54f85b569fb96d96; Expires=Sat, 22-Mar-2092 03:46:02 GMT; Path=/; Secure
-Set-Cookie: yatpz=C1A17BnD7H9%2Ft5PNwCaYY5y1AQ%3D%3D; Domain=.yodobashi.com; Expires=Sun, 02-Jun-2024 00:31:55 GMT; Path=/; Secure
+Date: Mon, 04 Mar 2024 23:09:05 GMT
+Set-Cookie: yuid=9ED8311EA716BE30939CA61366B8CE47; Path=/; Secure
+Set-Cookie: yid=9ED8311EA716BE30939CA61366B8CE47; Domain=.yodobashi.com; Expires=Sun, 23-Mar-2092 02:23:11 GMT; Path=/; Secure
+Set-Cookie: newses=1; Domain=.yodobashi.com; Expires=Sun, 23-Mar-2092 02:23:11 GMT; Path=/; Secure
+Set-Cookie: uq=9de8320dad8f5ce07dd798d75d771ff40f392b5b; Expires=Sun, 23-Mar-2092 02:23:11 GMT; Path=/; Secure
+Set-Cookie: yatpz=C1A7kGU35fWMzKvGbRSL%2BjGvJg%3D%3D; Domain=.yodobashi.com; Expires=Sun, 02-Jun-2024 23:09:04 GMT; Path=/; Secure
 Set-Cookie: google_crmid=""; Domain=.yodobashi.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
-Set-Cookie: JSESSIONID=E05671134D28AEF564384B2341F8E9B6; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=C8E74605A3B5B09D9E3E9F8E078B9E68; Path=/; Secure; HttpOnly
 Server-Timing: cdn-cache; desc=MISS
-Server-Timing: edge; dur=99
-Server-Timing: origin; dur=1032
-Server-Timing: ak_p; desc="1709512315371_400357330_343298520_113043_5749_15_0_-";dur=1
+Server-Timing: edge; dur=23
+Server-Timing: origin; dur=834
+Server-Timing: ak_p; desc="1709593744772_400357318_793306248_85739_5197_13_0_-";dur=1
