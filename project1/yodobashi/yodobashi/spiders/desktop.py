@@ -9,24 +9,25 @@ class DesktopSpider(scrapy.Spider):
     def parse(self, response):
         products = response.xpath("//div[3]/div[1][contains(@class, 'productListTile')]")
         # products = response.css("div > a.js_productListPostTag")
-        brands = response.xpath("//a/div[2][contains(@class, 'pName')]/p[1]/text()").getall()
-        names = response.xpath("//a/div[2][contains(@class, 'pName')]/p[2]/text()").getall()
+        # brands = response.xpath("//a/div[2][contains(@class, 'pName')]/p[1]/text()").getall()
+        # names = response.xpath("//a/div[2][contains(@class, 'pName')]/p[2]/text()").getall()
 
-        yield {
-            "products": products,
-            "brands": brands,
-            "names": names
-        }
+        # yield {
+        #     "products": products,
+        #     "brands": brands,
+        #     "names": names
+        # }
 
 
-        # for product in products:
-        #     # maker = product.xpath(".//div/div[contains(@class, 'brand')]/text()").get()
-        #     # maker = product.css("div > div.brand::text")
+        for product in products:
+            brand = product.xpath(".//a/div[2][contains(@class, 'pName')]/p[1]/text()").get()
+            # maker = product.css("div > div.brand::text")
 
-        #     name = product.xpath(".//a/div/div[2]/div[1]/strong/text()").get
-        #     price = product.xpath(".//div[2]/ul/li[1]/strong[contains(@class, 'red')]/text()").get()
+            name = product.xpath(".//a/div[2][contains(@class, 'pName')]/p[2]/text()").get
+            price = product.xpath(".//div[2]/ul/li[1]/strong[contains(@class, 'red')]/text()").get()
 
-        #     yield {
-        #         "name": name,
-        #         "price": price
-        #     }
+            yield {
+                "brand": brand,
+                "name": name,
+                "price": price
+            }
