@@ -5,15 +5,15 @@ X-Xss-Protection: 1
 X-Content-Type-Options: nosniff
 Content-Security-Policy: upgrade-insecure-requests
 Content-Security-Policy-Report-Only: connect-src https:; report-uri https://www.yodobashi.com/ws/api/ap/csp/report
-Last-Modified: Thu, 20 Aug 2009 07:33:38 GMT
-Etag: "1c17f6-0-4718dc51a3880"
+Last-Modified: Thu, 20 Aug 2009 07:34:23 GMT
+Etag: "361328-0-4718dc7c8ddc0"
 Accept-Ranges: bytes
 Vary: Accept-Encoding,User-Agent
 Content-Encoding: gzip
 X-Cnection: close
 Content-Type: text/plain; charset=UTF-8
-Date: Sun, 03 Mar 2024 23:57:27 GMT
+Date: Mon, 04 Mar 2024 00:31:48 GMT
 Server-Timing: cdn-cache; desc=MISS
-Server-Timing: edge; dur=23
-Server-Timing: origin; dur=2
-Server-Timing: ak_p; desc="1709510247183_398470708_380250492_2560_8015_83_100_-";dur=1
+Server-Timing: edge; dur=12
+Server-Timing: origin; dur=11
+Server-Timing: ak_p; desc="1709512308143_400357330_343293796_2345_4179_17_36_-";dur=1
