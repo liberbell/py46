@@ -31,3 +31,7 @@ class DesktopSpider(scrapy.Spider):
                 "name": name,
                 "price": price
             }
+
+        next_page = response.xpath("//a[@class='next']/@href").get()
+        if next_page:
+            yield response.follow(url=next_page, callable=self.parse)
