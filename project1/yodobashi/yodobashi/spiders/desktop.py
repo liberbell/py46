@@ -19,18 +19,18 @@ class DesktopSpider(scrapy.Spider):
         # }
 
 
-        for product in products:
-            brand = product.xpath(".//a/div[2][contains(@class, 'pName')]/p[1]/text()").get()
-            # maker = product.css("div > div.brand::text")
+        # for product in products:
+        #     brand = product.xpath(".//a/div[2][contains(@class, 'pName')]/p[1]/text()").get()
+        #     # maker = product.css("div > div.brand::text")
 
-            name = product.xpath(".//div[contains(@class, 'pName')]/p[2]/text()").get()
-            price = product.xpath(".//ul/li[2]/span[contains(@class, 'productPrice')]/text()").get()
+        #     name = product.xpath(".//div[contains(@class, 'pName')]/p[2]/text()").get()
+        #     price = product.xpath(".//ul/li[2]/span[contains(@class, 'productPrice')]/text()").get()
 
-            yield {
-                "brand": brand,
-                "name": name,
-                "price": price
-            }
+        #     yield {
+        #         "brand": brand,
+        #         "name": name,
+        #         "price": price
+        #     }
 
         next_page = response.xpath("//a[@class='next']/@href").get()
         if next_page:
