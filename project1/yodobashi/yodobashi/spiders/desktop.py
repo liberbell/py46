@@ -7,7 +7,7 @@ class DesktopSpider(scrapy.Spider):
     start_urls = ['https://www.yodobashi.com/category/19531/11970/34646']
 
     def parse(self, response):
-        products = response.xpath("//div[3]/div[1][contains(@class, 'productListTile')]")
+        products = response.xpath("//div[3]/div[contains(@class, 'productListTile')]")
         # products = response.css("div > a.js_productListPostTag")
         # brands = response.xpath("//a/div[2][contains(@class, 'pName')]/p[1]/text()").getall()
         # names = response.xpath("//a/div[2][contains(@class, 'pName')]/p[2]/text()").getall()
