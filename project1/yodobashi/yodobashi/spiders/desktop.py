@@ -34,4 +34,4 @@ class DesktopSpider(scrapy.Spider):
 
         next_page = response.xpath("//a[@class='next']/@href").get()
         if next_page:
-            yield response.follow(url=next_page, callable=self.parse)
+            yield response.follow(url=next_page, callback=self.parse)
