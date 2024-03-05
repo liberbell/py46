@@ -1,0 +1,837 @@
+[
+    {
+        "brand": "\u5bcc\u58eb\u901a FUJITSU",
+        "name": "FMVF77H3B [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 FMV/FH\u30b7\u30ea\u30fc\u30ba/23.8\u578bFull HD/Core i7-1260P/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home and Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5225,280"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI60-DNHB [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i5-13400/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5147,940"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "G10CE-I7R2060SBY32 [\u30b2\u30fc\u30df\u30f3\u30b0 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/ROG Strix/Core i7-11700/GeForce RTX 2060 SUPER/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V4PA-AAAH [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP 24-cr0000 AiO G1\u30e2\u30c7\u30eb/23.8\u578b/Core i7-1355U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30b7\u30a7\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5199,800"
+    },
+    {
+        "brand": "NEC \u30a8\u30cc\u30a4\u30fc\u30b7\u30fc",
+        "name": "PC-A2797GAB [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 LAVIE/27.0\u578bFull HD/AMD Ryzen7 7730U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/BDXL/TV\u30c1\u30e5\u30fc\u30ca\u30fc/Windows 11 Home/Office Home \uff06 Business 2021/\u30d5\u30a1\u30a4\u30f3\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5269,280"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI70-DNHB [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5180,970"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "F0GH0189JP [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre AIO 370i/23.8\u578b/Core i7-13620H/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home\uff06Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5178,660"
+    },
+    {
+        "brand": "NEC \u30a8\u30cc\u30a4\u30fc\u30b7\u30fc",
+        "name": "PC-A2377GAB [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 LAVIE/23.8\u578bFull HD/AMD Ryzen7 7730U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/BDXL/TV\u30c1\u30e5\u30fc\u30ca\u30fc/Windows 11 Home/Office Home \uff06 Business 2021/\u30d5\u30a1\u30a4\u30f3\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5258,280"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UN1265W-32/1T-W11Pro\uff0812650H\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i7-12650H/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe594,610"
+    },
+    {
+        "brand": "\u5bcc\u58eb\u901a FUJITSU",
+        "name": "FMVF60H3W [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 FMV/FH\u30b7\u30ea\u30fc\u30ba/23.8\u578bFull HD/Ryzen 5 7530U/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5185,680"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UM773XTX-32/512-W11Pro\uff087735HS\uff09 [\u30df\u30cbPC/Ryzen 7 7735HS/\u30e1\u30e2\u30ea 32GB/SSD 512GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe588,660"
+    },
+    {
+        "brand": "\u5bcc\u58eb\u901a FUJITSU",
+        "name": "FMVF60H3WC [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 FMV/FH\u30b7\u30ea\u30fc\u30ba/23.8\u578bFull HD/Ryzen 5 7530U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30db\u30ef\u30a4\u30c8/\u30e8\u30c9\u30d0\u30b7\u30ab\u30e1\u30e9\u9650\u5b9a\u30e2\u30c7\u30eb]",
+        "price": "\uffe5224,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI557-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5144,800"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UN1245W-16/512-W11Pro\uff0812450H\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i5-12450H/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Pro]",
+        "price": "\uffe576,970"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI567T-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V6PA-AABD [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP Desktop M01-F2000 G1\u30e2\u30c7\u30eb/Core i5-12400/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30b8\u30a7\u30c3\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5119,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V3PA-AAAF [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP 24-cr0000 AiO G1\u30e2\u30c7\u30eb/23.8\u578b/Core i5-1335U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30b7\u30a7\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5174,800"
+    },
+    {
+        "brand": "\u5bcc\u58eb\u901a FUJITSU",
+        "name": "FMVF90H2B [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 FMV/FH\u30b7\u30ea\u30fc\u30ba/27\u578bWQHD/Core i7-1260P/\u30e1\u30e2\u30ea 16GB /SSD 512GB \uff0b HDD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5274,780"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI577T-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5194,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "G10CE-I5R2060SBY [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/ROG Strix G10CE/Core i5-11400F/GeForce RTX 2060 SUPER/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5129,800"
+    },
+    {
+        "brand": "NEC \u30a8\u30cc\u30a4\u30fc\u30b7\u30fc",
+        "name": "PC-A2365GAB [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 LAVIE/23.8\u578bFull HD/AMD Ryzen7 7730U/\u30e1\u30e2\u30ea 16GB/SSD 512GB/DVD/Windows 11 Home/Office Home \uff06 Business 2021/\u30d5\u30a1\u30a4\u30f3\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5219,780"
+    },
+    {
+        "brand": "NEC \u30a8\u30cc\u30a4\u30fc\u30b7\u30fc",
+        "name": "PC-A2355GAB-YC [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 LAVIE/23.8\u578bFull HD/AMD Ryzen5 7530U/\u30e1\u30e2\u30ea 16GB/SSD 512GB/DVD/Windows 11 Home/Office Home \uff06 Business 2021/\u30d5\u30a1\u30a4\u30f3\u30d6\u30e9\u30c3\u30af/\u30e8\u30c9\u30d0\u30b7\u30ab\u30e1\u30e9\u9650\u5b9a\u30e2\u30c7\u30eb]",
+        "price": "\uffe5225,280"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI70-DNL [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5169,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI537-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i3-1315U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V4PA-AAAG [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP 24-cr0000 AiO G1\u30e2\u30c7\u30eb/23.8\u578b/Core i7-1355U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/\u30b7\u30a7\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5177,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI537-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i3-1315U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5129,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI60-DNL [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i5-13400/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5134,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI779T-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB\uff0bHDD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5219,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DI70-DNLC [Inspiron 3020 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700/GeForce RTX 3050/\u30e1\u30e2\u30ea 16GB/SSD 512GB+HDD 1TB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5239,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V6PA-AABC [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP Desktop M01-F2000 G1\u30e2\u30c7\u30eb/Core i5-12400/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30b8\u30a7\u30c3\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe597,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI537-DNHBBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i3-1315U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI7U01YC21DNHB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5184,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI30-DNL [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i3-13100/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe597,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "S500SD-G7400LU [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Pentium Gold G7400/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/WPS Office2 Standard Edition/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe584,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI7U01YC21DNPB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5199,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M3702WFAK-WA063W [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/27.0\u578b/Ryzen 5 7520U/\u30e1\u30e2\u30ea 16GB/SSD 512G/Windows 11 Home/WPS Office 2 Standard Edition/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5159,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "F0GH0188JP [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre AIO 370i/23.8\u578b/Core i5-13420H/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home\uff06Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5165,330"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI5U01YC61DNHB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i5-14400/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5134,800"
+    },
+    {
+        "brand": "HP",
+        "name": "892V5PA-AAAR [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP Desktop M01-F2000 G1\u30e2\u30c7\u30eb/Core i3-12100/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30b8\u30a7\u30c3\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe587,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI759-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5169,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN42-SN044AU [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Intel N100/\u30e1\u30e2\u30ea 4GB/SSD 128GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe547,790"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI779T-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB\uff0bHDD 1TB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5199,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN64-S3301AD [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i3-1220P/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe581,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN64-S7303AD [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i7-13700H/\u30e1\u30e2\u30ea 16GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5150,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI50-DNHB [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i5-13400/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5135,670"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UM790-32/1TB-W11Pro\uff087940HS\uff09 [\u30df\u30cbPC/Ryzen 9 7940HS/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5149,970"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI30-DNHB [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i3-13100/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5113,030"
+    },
+    {
+        "brand": "HP",
+        "name": "892V5PA-AAAS [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP Desktop M01-F2000 G1\u30e2\u30c7\u30eb/Core i3-12100/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30b8\u30a7\u30c3\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5109,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VT0059JP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre 3i Gen8/Corei5-13400/\u30e1\u30e2\u30ea 8GB\uff084GB\u00d72\uff09/SSD 512GB/Windows11 Home/Office Home \uff06 Business 2021/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5136,180"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "SI50-DNL [\u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 3020S \u30b9\u30e2\u30fc\u30eb\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i5-13400/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5121,800"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UN100L/V-16/256-W11Pro\uff08N100\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/N100/\u30e1\u30e2\u30ea 16GB/SSD 256GB/Windows 11 Pro/\u30b7\u30eb\u30d0\u30fc]",
+        "price": "\uffe544,280"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "NAB0-32/512-W11Pro\uff081240P\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i5-1240P/Iris Xe Graphics eligible/\u30e1\u30e2\u30ea 32GB/SSD 512GB/Windows 11 Pro]",
+        "price": "\uffe5114,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI779T-DNHBBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB\uff0bHDD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5219,800"
+    },
+    {
+        "brand": "\u30de\u30a4\u30af\u30ed\u30bd\u30d5\u30c8 Microsoft",
+        "name": "SBF-00009 [Surface Studio 2+\uff08\u30b5\u30fc\u30d5\u30a7\u30b9 \u30b9\u30bf\u30b8\u30aa 2\u30d7\u30e9\u30b9\uff09/28\u30a4\u30f3\u30c1 PixelSense/Core i7/\u30e1\u30e2\u30ea 32GB/SSD 1TB/GeForce RTX 3060 Laptop GPU/Windows 11 Pro/Office Home and Business 2021/\u30d7\u30e9\u30c1\u30ca]",
+        "price": "\uffe5719,180"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UM773XTX-16/512-W11Pro\uff087735HS\uff09 [\u30df\u30cbPC/Ryzen 7 7735HS/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe588,510"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "UM780W-32/1T-W11Pro\uff087840HS\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Ryzen7 7840HS/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5144,730"
+    },
+    {
+        "brand": "\u30a2\u30a4\uff65\u30aa\u30fc\uff65\u30c7\u30fc\u30bf\u6a5f\u5668 I-O DATA",
+        "name": "MPC-LVZ2 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Intel Pentium Silver N5030/\u30e1\u30e2\u30ea\u30fc4GB/eMMC 64GB/Windows 10 IoT Enterprise\u642d\u8f09]",
+        "price": "\uffe565,640"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI557-DNLBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5144,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DX70-DNLC [XPS 8960 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700/GeForce RTX 3050/\u30e1\u30e2\u30ea 16GB/SSD 512GB+HDD 2TB/Windows 11 Home/\u30d7\u30e9\u30c1\u30ca\u30b7\u30eb\u30d0\u30fc]",
+        "price": "\uffe5279,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M3402WFAK-WA054W [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/23.8\u578b/Ryzen 5 7520U/\u30e1\u30e2\u30ea 16GB/SSD 512G/Windows 11 Home/WPS Office 2 Standard Edition/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN53-S7099AD [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Ryzen 7 7735H/\u30e1\u30e2\u30ea 16GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5125,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90SM0063JP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7PC/ IdeaCentre 370i / Pentium Gold G7400/HDD 1TB/\u30e1\u30e2\u30ea 4GB/Windows 11 Home /Microsoft Office Home \uff06 Business 2021/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5104,280"
+    },
+    {
+        "brand": "HP",
+        "name": "892V3PA-AAAE [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/HP 24-cr0000 AiO G1\u30e2\u30c7\u30eb/23.8\u578b/Core i5-1335U/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/\u30b7\u30a7\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5152,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI557-DNHBBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5164,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI5G1BYC25CNHB3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i5-13400F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce GTX 1650/Windows 11 Home]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI577T-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5174,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DX80-DNLC [XPS 8960 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700/GeForce RTX 3060 LHR/\u30e1\u30e2\u30ea 16GB/SSD 512GB+HDD 2TB/Windows 11 Home/\u30d7\u30e9\u30c1\u30ca\u30b7\u30eb\u30d0\u30fc]",
+        "price": "\uffe5294,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b5\u30fc Acer",
+        "name": "RN96-F58Y [Revo Box/Core i5-1135G7/\u30e1\u30e2\u30ea 8GB/512GB SSD/Windows 11 Home\uff0864bit\uff09/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe592,040"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI557-DNHBWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5164,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN53-S5097AD [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Ryzen 5 7535H/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5105,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI537-DNLBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i3-1315U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5129,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI7U01YC61DNHB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5169,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DA80-DWLBC [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Alienware Aurora R16/Core i7-14700KF/NVIDIA GeForce RTX 4060/\u30e1\u30e2\u30ea 16GB/SSD 1TB+HDD 1TB/Windows 11 Home/\u30d0\u30b5\u30eb\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5329,800"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAQ3P-8/128-W10Pro\uff08V1605B\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Ryzen Embedded V1605B/\u30e1\u30e2\u30ea 8GB/eMMC 128GB/Windows 10 Pro]",
+        "price": "\uffe588,680"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ-4/64-W10\uff08N3350\uff09 IOT [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron/\u30e1\u30e2\u30ea 4GB/eMMC 64GB/Windows 10 IOT]",
+        "price": "\uffe548,390"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VH004LJP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/LOQ Tower 17IRB8/Core i5-13400F/GeForce GTX 1660 SUPER/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5169,690"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M5401WYAK-WA009W [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/ASUS ZenAiO 24 M5401WYAK/23.8\u578b/Ryzen 7 5825U/\u30e1\u30e2\u30ea 16GB/SSD 512G/HDD 1TB/Windows 11 Home/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5169,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI577T-DNHBBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5194,800"
+    },
+    {
+        "brand": "\u30df\u30cb\u30b9\u30d5\u30a9\u30fc\u30e9\u30e0 MINISFORUM",
+        "name": "NAB0-16/512-W11Pro\uff081240P\uff09 [\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i5-1240P/Iris Xe Graphics eligible/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Pro]",
+        "price": "\uffe5104,800"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-8/128-W11Pro\uff08N6000\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron Processor N6000/\u30e1\u30e2\u30ea 8GB/eMMC 128GB/Windows 11 Pro]",
+        "price": "\uffe565,340"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M3702WFAK-WA008WS [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/27.0\u578b/Ryzen 5 7520U/\u30e1\u30e2\u30ea 16GB/SSD 512G/Windows 11 Home/Office Home and Business 2021/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI5U01YC21DNHB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i5-14400/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DX100-DNLC [XPS 8960 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i9-13900K/GeForce RTX 3070 LHR/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home/\u30b0\u30e9\u30d5\u30a1\u30a4\u30c8]",
+        "price": "\uffe5399,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VH004KJP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/LOQ Tower 17IRB8/Core i5-13400F/GeForce GTX 1660 SUPER/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5161,110"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-8/64-W11Pro\uff08N5100\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron Processor N5100/\u30e1\u30e2\u30ea 8GB/eMMC 64GB/Windows 11 Pro]",
+        "price": "\uffe556,170"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI759-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i5-1335U/UHD \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 8GB/SSD 512GB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI567T-DNLWC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d1\u30fc\u30eb\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5159,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M5401WYAK-WA031WS [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/ASUS ZenAiO 24 M5401WYAK/23.8\u578b/Ryzen 7 5825U/\u30e1\u30e2\u30ea 16GB/SSD 512G/HDD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5189,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VT005CJP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre 3i Gen8/Corei7-13700/\u30e1\u30e2\u30ea 16GB\uff088GB\u00d72\uff09/SSD 1TB/Windows11 Home/Office Home \uff06 Business 2021/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5197,780"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAQ3D-4/64-W10IoT\uff08N4500\uff09 [\u8d85\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron N4500/\u30e1\u30e2\u30ea 4GB/eMMC 64 GB/Windows 10 IoT]",
+        "price": "\uffe553,680"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DX90-DNLC [XPS 8960 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i7-13700K/GeForce RTX 3060 Ti LHR/\u30e1\u30e2\u30ea 16GB/SSD 512GB+HDD 2TB/Windows 11 Home/\u30b0\u30e9\u30d5\u30a1\u30a4\u30c8]",
+        "price": "\uffe5329,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "PN64-S5302AD [\u8d85\u5c0f\u578b\u30df\u30cb\u30d1\u30bd\u30b3\u30f3/Core i5-13500H/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5118,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "M3402WFAK-WA018WS [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/23.8\u578b/Ryzen 5 7520U/\u30e1\u30e2\u30ea 16GB/SSD 512G/Windows 11 Home/Office Home and Business 2021/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5169,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI567T-DNHBBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/Office Home \uff06 Business 2021/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI779T-DNLBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 27 7720 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/27.0\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB\uff0bHDD 1TB/Windows 11 Home/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5199,800"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "RR516S-1500-R31 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 \u30ac\u30ec\u30ea\u30a2/Core i5-13400F/GTX 1660SUPER/\u30e1\u30e2\u30ea 16GB/SSD 500GB/Windows 11 Home]",
+        "price": "\uffe5163,840"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G60YC25CNHW3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune \u30db\u30ef\u30a4\u30c8\u30e2\u30c7\u30eb/Core i7-13700F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce RTX 4060/Windows 11 Home]",
+        "price": "\uffe5264,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G60YC45CNHB3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i7-13700F/\u30e1\u30e2\u30ea 64GB/SSD 500GB/GeForce RTX 4060/Windows 11 Home]",
+        "price": "\uffe5269,800"
+    },
+    {
+        "brand": "\u30ec\u30a4\u30c8\u30ec\u30c3\u30af raytrek",
+        "name": "4CR7F-47-6100 R32 [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ec\u30a4\u30c8\u30ec\u30c3\u30af/Core i7-13700F/GeForce RTX 4070 12GB GDDR6X/\u30e1\u30e2\u30ea 64GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5349,980"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "ZR9K49-1100-YC31-307 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ac\u30ec\u30ea\u30a2/Core i9-13900KF/RTX 4080/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5724,980"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "Trident X2 14NUI9-292JP [\u30a6\u30eb\u30c8\u30e9\u30cf\u30a4\u30a8\u30f3\u30c9\u30b2\u30fc\u30df\u30f3\u30b0PC/Core i9-14900KF/GeForce RTX 4090/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5866,800"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "MUC5095-8/128-W11Pro\uff08N5095\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/N5095/\u30e1\u30e2\u30ea 8GB/SSD 128GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe540,170"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G60YC25CNHB3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i7-13700F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce RTX 4060/Windows 11 Home]",
+        "price": "\uffe5259,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "G22CH-1490KF010W [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/ROG G22CH/Core i9-14900KF/RTX 4070/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home/\u30a8\u30af\u30b9\u30c8\u30ea\u30fc\u30e0\u30c0\u30fc\u30af\u30b0\u30ec\u30fc]",
+        "price": "\uffe5459,240"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G70YC45CNHB3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i7-13700F/\u30e1\u30e2\u30ea 64GB/SSD 500GB/GeForce RTX 4070/Windows 11 Home]",
+        "price": "\uffe5314,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI5U01YC21DNPB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i5-14400/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5164,800"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "RR536-1100-R31 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 \u30ac\u30ec\u30ea\u30a2/Core i5-13400F/RTX 3060/\u30e1\u30e2\u30ea 16GB/SSD 500GB/Windows 11 Home]",
+        "price": "\uffe5229,980"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI5U01YC61DNPB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i5-14400/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5149,800"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "NX-N100-8/128-W11Pro\uff08N100\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/N100/\u30e1\u30e2\u30ea 8GB/SSD 128GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe557,970"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G70YC25CNHW3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune \u30db\u30ef\u30a4\u30c8\u30e2\u30c7\u30eb/Core i7-13700F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce RTX 4070/Windows 11 Home]",
+        "price": "\uffe5309,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DA90-DWLBC [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Alienware Aurora R16/Core i7-14700KF/NVIDIA GeForce RTX 4070/\u30e1\u30e2\u30ea 32GB/SSD 1TB+HDD 1TB/Windows 11 Home/\u30d0\u30b5\u30eb\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5414,800"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "ZR7K47T-1100-YC31-1335 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ac\u30ec\u30ea\u30a2/Core i7-13700KF/RTX 3060Ti/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5494,980"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "XR736T-1100-R31 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 \u30ac\u30ec\u30ea\u30a2/Core i7-13700F/RTX 3060Ti/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5259,980"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G70YC25CNHB3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i7-13700F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce RTX 4070/Windows 11 Home]",
+        "price": "\uffe5304,800"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "XR747T-1100-R31 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 \u30ac\u30ec\u30ea\u30a2/Core i7-13700F/RTX 4070Ti/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5359,980"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VH004MJP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/LOQ Tower 17IRB8/Core i7-13700F/GeForce RTX 3060\uff08LHR\uff09/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/Office Home \uff06 Business 2021/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5264,000"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI5G1BYC25CNHW3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune \u30db\u30ef\u30a4\u30c8\u30e2\u30c7\u30eb/Core i5-13400F/\u30e1\u30e2\u30ea 32GB/SSD 500GB/GeForce GTX 1650/Windows 11 Home]",
+        "price": "\uffe5184,800"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "Trident AS 13NUE-495JP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-13700F/RTX 4070/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5330,100"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "ZR7K47T-1100-YC31-1 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ac\u30ec\u30ea\u30a2/Core i7-13700KF/RTX 4070Ti/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5549,980"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "RR536T-1500-YC31-740 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ac\u30ec\u30ea\u30a2/Core i5-13400F/GTX 1660SUPER/\u30e1\u30e2\u30ea 16GB/SSD 500GB/Windows 11 Home]",
+        "price": "\uffe5247,980"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI577T-DNLBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i7-1355U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5174,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DI60-DNLC [Inspiron 3020 \u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Core i5-13400F/GeForce GTX 1660 SUPER/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5179,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VH004NJP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/LOQ Tower 17IRB8/Core i7-13700F/GeForce RTX 3060\uff08LHR\uff09/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5227,070"
+    },
+    {
+        "brand": "\u30b9\u30c8\u30fc\u30e0 STORM",
+        "name": "YDS-ME7AH16146 [\u5149\u308b\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-12700/RTX4060 8GB/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5257,800"
+    },
+    {
+        "brand": "\u30b9\u30c8\u30fc\u30e0 STORM",
+        "name": "YDS-ME7AH16146T [\u5149\u308b\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-12700/RTX4060Ti 8GB/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5269,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DA85-DWLBC [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Alienware Aurora R16/Core i7-14700KF/NVIDIA GeForce RTX 4060 Ti/\u30e1\u30e2\u30ea 16GB/SSD 1TB+HDD 1TB/Windows 11 Home/\u30d0\u30b5\u30eb\u30c8\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5354,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "AI567T-DNLBC [\u4e00\u4f53\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Inspiron 24 5420 \u30aa\u30fc\u30eb\u30a4\u30f3\u30ef\u30f3/23.8\u578b/Core i5-1335U/Iris Xe \u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30c0\u30fc\u30af\u30b7\u30e3\u30c9\u30a6\u30b0\u30ec\u30fc]",
+        "price": "\uffe5159,800"
+    },
+    {
+        "brand": "\u30a8\u30a4\u30b9\u30fc\u30b9 ASUS",
+        "name": "G15DK-R75G1660TW11 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 ROG Strix GA15 \uff08G15DK\uff09/Ryzen 7 5800X/GTX 1660 Ti/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5159,800"
+    },
+    {
+        "brand": "\u30ec\u30a4\u30c8\u30ec\u30c3\u30af raytrek",
+        "name": "4CR7F-47-3100 R32 [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ec\u30a4\u30c8\u30ec\u30c3\u30af/Core i7-13700F/GeForce RTX 4070 12GB GDDR6X/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5319,980"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "XR748-1100-R31 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 \u30ac\u30ec\u30ea\u30a2/Core i7-13700F/RTX 4080/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5414,440"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "PRO DP180 14-264JP [\u9ad8\u6027\u80fd\u30c7\u30b9\u30af\u30c8\u30c3\u30d7PC/Core i7-14700/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5156,360"
+    },
+    {
+        "brand": "\u5bcc\u58eb\u901a FUJITSU",
+        "name": "FMVF60G3WC [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 FMV/FH\u30b7\u30ea\u30fc\u30ba/23.8\u578bFull HD/Core i5-1135G7/\u30e1\u30e2\u30ea 16GB/SSD 256GB \uff0b HDD 1TB/S\u30de\u30eb\u30c1/Windows 11 Home 64\u30d3\u30c3\u30c8/Office Home and Business 2021/\u30db\u30ef\u30a4\u30c8/\u30e8\u30c9\u30d0\u30b7\u30ab\u30e1\u30e9\u9650\u5b9a\u30e2\u30c7\u30eb]",
+        "price": "\uffe5199,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "DGI7G6TYC25CNHW3 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 G-Tune/Core i7-13700F/GeForce RTX 4060 Ti/\u30e1\u30e2\u30ea 32GB/SSD 500GB/Windows11 Home/\u30db\u30ef\u30a4\u30c8]",
+        "price": "\uffe5284,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90V70044JM [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/LegionTower 7i Gen8/Corei7-13700KF/GeForce RTX4080/\u30e1\u30e2\u30ea 32GB/HDD2TB\uff0bSSD2TB/Windows 11 Home/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5550,000"
+    },
+    {
+        "brand": "\u30ac\u30ec\u30ea\u30a2 GALLERIA",
+        "name": "RR536T-1500-YC31-1 [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/\u30ac\u30ec\u30ea\u30a2/Core i5-13400F/RTX 3060Ti/\u30e1\u30e2\u30ea 16GB/SSD 500GB/Windows 11 Home]",
+        "price": "\uffe5269,980"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "GTMPCM127G307P22H [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7/\u30e1\u30e2\u30ea 16GB/SSD 1TB \uff08NVMe\uff09/HDD 4TB/GeForce RTX 3070/DVD\u30b9\u30fc\u30d1\u30fc\u30de\u30eb\u30c1\u30c9\u30e9\u30a4\u30d6/Windows11 Pro]",
+        "price": "\uffe5389,800"
+    },
+    {
+        "brand": "\u30c7\u30eb DELL",
+        "name": "DA90-CWLCB [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7/Alienware Aurora R13/Core i7-12700KF/\u30e1\u30e2\u30ea 32GB/SSD 512GB\uff0bHDD 2TB/Windows 11 Home/\u30c0\u30fc\u30af\u30b0\u30ec\u30fc]",
+        "price": "\uffe5435,380"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "GTSPCMI127G306P22H [\u30b9\u30ea\u30e0\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7/\u30e1\u30e2\u30ea 16GB/SSD 1TB \uff08NVMe\uff09/HDD 1TB/GeForce RTX 3060/DVD\u30b9\u30fc\u30d1\u30fc\u30de\u30eb\u30c1\u30c9\u30e9\u30a4\u30d6/Windows11 Pro]",
+        "price": "\uffe5329,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90SM0060JP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7PC/ IdeaCentre 370i/ Pentium Gold G7400/HDD 1TB/\u30e1\u30e2\u30ea 4GB/Windows 11 Home /\u30b0\u30ec\u30fc]",
+        "price": "\uffe582,280"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAQ3P-4/64-W10Pro\uff08R1505G\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Ryzen Embedded R1505G/\u30e1\u30e2\u30ea 4GB/eMMC 64GB/Windows 10 Pro]",
+        "price": "\uffe566,480"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-8/128-W10IoT\uff08N6000\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Pentium N6000/\u30e1\u30e2\u30ea 8GB/eMMC 128GB/Windows 10 IoT Enterprise LTSC]",
+        "price": "\uffe569,780"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-4/64-W11Pro\uff08N5100\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron Processor N5100/\u30e1\u30e2\u30ea 4GB/eMMC 64GB/Windows 11 Pro]",
+        "price": "\uffe551,780"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-4/64-W11Pro\uff08N4500\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron N4500/\u30e1\u30e2\u30ea 4GB/eMMC 64GB/Windows 11 Pro]",
+        "price": "\uffe550,560"
+    },
+    {
+        "brand": "\u30a2\u30c3\u30d7\u30eb Apple",
+        "name": "Apple Mac Studio Apple M2 Max\u30c1\u30c3\u30d7 \u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u30e2\u30c7\u30eb\uff08CTO\uff09",
+        "price": "\uffe5326,800"
+    },
+    {
+        "brand": "HP",
+        "name": "8L9K7PA-AAAE [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Victus 15L Gaming TG02-1000 G1\u30e2\u30c7\u30eb/Core i5-13400F/RTX 4060/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Home/\u30de\u30a4\u30ab\u30b7\u30eb\u30d0\u30fc]",
+        "price": "\uffe5189,800"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "PRO DP180 14-265JP [\u9ad8\u6027\u80fd\u30c7\u30b9\u30af\u30c8\u30c3\u30d7PC/Core i5-14400/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Pro]",
+        "price": "\uffe5121,010"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "MAG Codex 6 14NUC5-067JP [\u30b2\u30fc\u30df\u30f3\u30b0\u30c7\u30b9\u30af\u30c8\u30c3\u30d7PC/Core i5-14400F/GeForce RTX 4060/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Home]",
+        "price": "\uffe5200,000"
+    },
+    {
+        "brand": "\u30a2\u30c3\u30d7\u30eb Apple",
+        "name": "Apple Mac Pro Apple M2 Ultra\u30c1\u30c3\u30d7 \u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u30e2\u30c7\u30eb\uff08CTO\uff09",
+        "price": "\uffe51,048,800"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VT005AJP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre 3i Gen8/Corei5-13400/\u30e1\u30e2\u30ea 8GB\uff084GB\u00d72\uff09/SSD 512GB/Windows11 Home/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5114,180"
+    },
+    {
+        "brand": "\u30ec\u30ce\u30dc\uff65\u30b8\u30e3\u30d1\u30f3 Lenovo",
+        "name": "90VT005BJP [\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3 IdeaCentre 3i Gen8/Corei7-13700/\u30e1\u30e2\u30ea 16GB\uff088GB\u00d72\uff09/SSD 1TB/Windows11 Home/\u30b0\u30ec\u30fc]",
+        "price": "\uffe5175,780"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI9G90YC42DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i9-14900KF/RTX 4090/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5684,800"
+    },
+    {
+        "brand": "\u30a2\u30c3\u30d7\u30eb Apple",
+        "name": "Apple Mac Studio Apple M2 Ultra\u30c1\u30c3\u30d7 \u30ab\u30b9\u30bf\u30de\u30a4\u30ba\u30e2\u30c7\u30eb\uff08CTO\uff09",
+        "price": "\uffe5654,800"
+    },
+    {
+        "brand": "MSI \u30a8\u30e0\u30a8\u30b9\u30a2\u30a4",
+        "name": "Trident X2 14NUF7-293JP [\u30df\u30c9\u30eb\u30cf\u30a4\u30af\u30e9\u30b9\u30b2\u30fc\u30df\u30f3\u30b0PC/Core i7-14700KF/GeForce RTX 4070 Ti/\u30e1\u30e2\u30ea 32GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5547,800"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "MTN-ALN50-8/256-W11Pro\uff08N305\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/Core i3-N305/\u30e1\u30e2\u30ea 8GB/SSD 256GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe578,370"
+    },
+    {
+        "brand": "ECS \u30a4\u30fc\u30b7\u30fc\u30a8\u30b9",
+        "name": "LIVAZ3-4/64-W10IoT\uff08N4500\uff09 [\u5c0f\u578b\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Celeron N4500/\u30e1\u30e2\u30ea 4GB/eMMC 64GB/Windows 10 IoT Enterprise LTSC]",
+        "price": "\uffe556,890"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI7G7SYC42DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700KF/RTX 4070 SUPER/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5459,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "LHI7U01YC61DNPB3 [\u30d3\u30b8\u30cd\u30b9\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700/\u30e1\u30e2\u30ea 16GB/SSD 1TB/Windows 11 Pro]",
+        "price": "\uffe5184,800"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "MTN-AL50-16/512-W11Pro\uff081260P\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/Corei7-1260P/\u30e1\u30e2\u30ea 16GB/SSD 512GB/Windows 11 Pro/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe5122,120"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "MUC5095-8/128-W10IoT\uff08N5095\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/N5095/\u30e1\u30e2\u30ea 8GB/SSD 128GB/Windows 10 IoT/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe548,290"
+    },
+    {
+        "brand": "\u30de\u30c3\u30af\u30b9\u30bf\u30f3 MAXTANG",
+        "name": "NX-N100-8/128-W10IoT\uff08N100\uff09WB [\u6cd5\u4eba\u5411\u3051\u30df\u30cbPC/N100/\u30e1\u30e2\u30ea 8GB/SSD 128GB/Windows 10 IoT/\u30d6\u30e9\u30c3\u30af]",
+        "price": "\uffe557,580"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI9G8SYC42DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i9-14900KF/RTX 4080 SUPER/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5594,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI9G8SYC22DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i9-14900KF/RTX 4080 SUPER/\u30e1\u30e2\u30ea 32GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5564,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI7G8SYC42DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700KF/RTX 4080 SUPER/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5559,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI7G8SYC22DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700KF/RTX 4080 SUPER/\u30e1\u30e2\u30ea 32GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5529,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI9G7SYC42DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i9-14900KF/RTX 4070 SUPER/\u30e1\u30e2\u30ea 64GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5494,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI9G7SYC22DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i9-14900KF/RTX 4070 SUPER/\u30e1\u30e2\u30ea 32GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5464,800"
+    },
+    {
+        "brand": "\u30de\u30a6\u30b9\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf\u30fc mouse computer",
+        "name": "FXI7G7SYC22DNPB3 [DAIV \u30af\u30ea\u30a8\u30a4\u30bf\u30fc\u5411\u3051\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u30d1\u30bd\u30b3\u30f3/Core i7-14700KF/RTX 4070 SUPER/\u30e1\u30e2\u30ea 32GB/SSD 2TB/Windows 11 Pro]",
+        "price": "\uffe5429,800"
+    }
+]
