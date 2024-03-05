@@ -1,4 +1,5 @@
 import scrapy
+import logging
 
 
 class DesktopSpider(scrapy.Spider):
@@ -7,6 +8,7 @@ class DesktopSpider(scrapy.Spider):
     start_urls = ['https://www.yodobashi.com/category/19531/11970/34646']
 
     def parse(self, response):
+        logging.info(response.url)
         products = response.xpath("//div[3]/div[contains(@class, 'productListTile')]")
         # products = response.css("div > a.js_productListPostTag")
         # brands = response.xpath("//a/div[2][contains(@class, 'pName')]/p[1]/text()").getall()
