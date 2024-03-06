@@ -15,8 +15,8 @@ class BooksBasicSpider(scrapy.Spider):
         # }
 
         for book in books:
-            book_title = book.xpath(".//article/h3/a/@title").get()
-            url = book.xpath(".//article/h3/a/@href").get()
+            book_title = book.xpath(".//a/@title").get()
+            url = book.xpath(".//a/@href").get()
 
             yield {
                 "book_title": book_title,
