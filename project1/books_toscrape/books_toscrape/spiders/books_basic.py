@@ -8,3 +8,12 @@ class BooksBasicSpider(scrapy.Spider):
 
     def parse(self, response):
         books = response.xpath("//li/article[@class='product_pod']")
+
+        for book in books:
+            book_title = response.xpath(".//article/h3/a/@title").get()
+            url = response.xpath(".//article/h3/a/@href").get()
+
+        yield {
+            "book_title": book_title,
+            "url": url,
+        }
