@@ -7,7 +7,7 @@ class BooksBasicSpider(scrapy.Spider):
     start_urls = ['https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html']
 
     def parse(self, response):
-        books = response.xpath("//li/article[@class='product_pod']")
+        books = response.xpath("//li/article[@class='product_pod']").getall()
 
         yield {
             "books": books
