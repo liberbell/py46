@@ -24,7 +24,6 @@ class BooksBasicSpider(scrapy.Spider):
             }
 
         next_page = response.xpath("//li[@class='next']/a/@href")
+        if next_page:
+            yield response.follow(url=next_page[0], callback=self.parse)
 
-        yield {
-            "next_page": next_page
-        }
