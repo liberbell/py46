@@ -22,3 +22,9 @@ class BooksBasicSpider(scrapy.Spider):
                 "book_title": book_title,
                 "url": url,
             }
+
+        next_page = response.xpath("//li[@class='next']/a/@href")
+
+        yield {
+            "next_page": next_page
+        }
