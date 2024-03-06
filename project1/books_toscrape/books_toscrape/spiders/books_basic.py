@@ -8,7 +8,7 @@ class BooksBasicSpider(scrapy.Spider):
 
     def parse(self, response):
         # books = response.xpath("//li/article[@class='product_pod']")
-        books = response.xpath("//h3']")
+        books = response.xpath("//h3")
 
         yield {
             "books": books
