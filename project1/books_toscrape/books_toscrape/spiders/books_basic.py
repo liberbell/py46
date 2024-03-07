@@ -21,11 +21,13 @@ class BooksBasicSpider(scrapy.Spider):
             if url:
                 yield response.follow(url=url, callback=self.parse)
                 book_upc = response.xpath("//table/tbody/tr/td/text()")
-                book_reviews = response.xpath("")
+                book_reviews = response.xpath("//tr[7]/td/text()")
 
             yield {
                 "book_title": book_title,
                 "url": url,
+                "book_upc": book_upc,
+                "book_reviews": book_reviews
             }
 
         next_page = response.xpath("//li[@class='next']/a/@href")
