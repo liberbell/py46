@@ -34,10 +34,11 @@ class BooksBasicSpider(scrapy.Spider):
             
     def parse_item(self, response):
         book_details = response.xpath("//div[@class='col-sm-6 product_main']")
-        title = response.xpath(".//h1/text()").get()
-        price = response.xpath(".//p[@class='price_color']/text()").get()
-        stock = response.xpath(".//p[@class='instock availability']/text()").get()
-        raiting = response.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
+        title = book_details.xpath(".//h1/text()").get()
+        price = book_details.xpath(".//p[@class='price_color']/text()").get()
+        stock = book_details.xpath(".//p[@class='instock availability']/text()").get()
+        raiting = book_details.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
+        upc = response.xpath("//th[contains(text(), 'UPC')]/following-sibling::td/text()").get()
 
         yield {
             "title": title,
