@@ -15,7 +15,7 @@ class BooksBasicSpider(scrapy.Spider):
         # }
 
         for book in books:
-            book_title = book.xpath(".//a/@title").get()
+            # book_title = book.xpath(".//a/@title").get()
             url = book.xpath(".//a/@href").get()
             
             if url:
@@ -34,4 +34,9 @@ class BooksBasicSpider(scrapy.Spider):
             
     def parse_item(self, response):
         book_details = response.xpath("//div[@class='col-sm-6 product_main']")
+        title = response.xpath(".//div[@class="col-sm-6 product_main"]/h1/text()").get()
+
+        yield {
+            "title": title,
+        }
 
