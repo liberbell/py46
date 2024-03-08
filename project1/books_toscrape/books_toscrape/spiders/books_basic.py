@@ -36,11 +36,13 @@ class BooksBasicSpider(scrapy.Spider):
         book_details = response.xpath("//div[@class='col-sm-6 product_main']")
         title = response.xpath(".//h1/text()").get()
         price = response.xpath(".//p[@class='price_color']/text()").get()
-        stock = response.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
+        stock = response.xpath(".//p[@class='instock availability']/text()").get()
+        raiting = response.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
 
         yield {
             "title": title,
             "price": price,
             "stock": stock,
+            "raiting": raiting
         }
 
