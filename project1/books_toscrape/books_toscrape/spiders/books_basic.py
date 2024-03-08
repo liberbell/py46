@@ -20,8 +20,8 @@ class BooksBasicSpider(scrapy.Spider):
             
             if url:
                 yield response.follow(url=url, callback=self.parse)
-                book_upc = response.xpath("//table/tbody/tr/td/text()")
-                book_reviews = response.xpath("//tr[7]/td/text()")
+                book_upc = response.xpath("//table/tbody/tr/td/text()").get()
+                book_reviews = response.xpath("//tr[7]/td/text()").get()
 
             yield {
                 "book_title": book_title,
