@@ -29,7 +29,7 @@ class BooksBasicSpider(scrapy.Spider):
         book_details = response.xpath("//div[@class='col-sm-6 product_main']")
         title = book_details.xpath(".//h1/text()").get()
         price = book_details.xpath(".//p[@class='price_color']/text()").get()
-        stock = book_details.xpath(".//p[@class='instock availability']/text()[2]").get()
+        stock = book_details.xpath("(.//p[@class='instock availability']/text())[2]").get()
         raiting = book_details.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
         upc = response.xpath("//th[contains(text(), 'UPC')]/following-sibling::td/text()").get()
         review = response.xpath("//th[contains(text(), 'Number of reviews')]/following-sibling::td/text()").get()
