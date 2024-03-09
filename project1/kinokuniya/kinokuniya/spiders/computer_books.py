@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
+import logging
 
 
 class ComputerBooksSpider(CrawlSpider):
@@ -9,12 +10,14 @@ class ComputerBooksSpider(CrawlSpider):
     start_urls = ['https://www.kinokuniya.co.jp/f/dsd-101001037028005-06-']
 
     rules = (
-        Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(restrict_xpaths="//h3[@class='heightLine-2']/a/@href"),
+             callback='parse_item', follow=False),
     )
 
     def parse_item(self, response):
-        item = {}
+        logging.info(response.url)
+        # item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
         #item['name'] = response.xpath('//div[@id="name"]').get()
         #item['description'] = response.xpath('//div[@id="description"]').get()
-        return item
+        # return item
