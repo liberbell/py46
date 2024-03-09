@@ -10,7 +10,7 @@ class ComputerBooksSpider(CrawlSpider):
     start_urls = ['https://www.kinokuniya.co.jp/f/dsd-101001037028005-06-']
 
     rules = (
-        Rule(LinkExtractor(restrict_xpaths="//h3[@class='heightLine-2']/a/@href"),
+        Rule(LinkExtractor(restrict_xpaths="//h3[@class='heightLine-2']/a"),
              callback='parse_item', follow=False),
     )
 
