@@ -12,6 +12,8 @@ class ComputerBooksSpider(CrawlSpider):
     rules = (
         Rule(LinkExtractor(restrict_xpaths="//h3[@class='heightLine-2']/a"),
              callback='parse_item', follow=False),
+        Rule(LinkExtractor(restrict_xpaths="(//a[contains(text(), '次へ')])[1]"),
+             callback='parse_item', follow=False),
     )
 
     def parse_item(self, response):
