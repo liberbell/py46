@@ -39,11 +39,14 @@ class BooksBasicSpider(scrapy.Spider):
         stock = book_details.xpath(".//p[@class='instock availability']/text()").get()
         raiting = book_details.xpath(".//p[contains(@class, 'star-rating')]/@class").get()
         upc = response.xpath("//th[contains(text(), 'UPC')]/following-sibling::td/text()").get()
+        review = response.xpath("//th[contains(text(), 'Number of reviews')]/following-sibling::td/text()").get()
 
         yield {
             "title": title,
             "price": price,
             "stock": stock,
-            "raiting": raiting
+            "raiting": raiting,
+            "upc": upc,
+            "review": review
         }
 
