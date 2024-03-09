@@ -5,8 +5,8 @@ from scrapy.spiders import CrawlSpider, Rule
 
 class ComputerBooksSpider(CrawlSpider):
     name = 'computer_books'
-    allowed_domains = ['www.kinokuniya.co.jp/f/dsd-101001037028005-06-']
-    start_urls = ['http://www.kinokuniya.co.jp/f/dsd-101001037028005-06-/']
+    allowed_domains = ['www.kinokuniya.co.jp']
+    start_urls = ['https://www.kinokuniya.co.jp/f/dsd-101001037028005-06-']
 
     rules = (
         Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),

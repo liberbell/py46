@@ -1,0 +1,43 @@
+https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+
+/html/body/div/div/div/div/section/div[2]/ol/li[1]/article[@class="product_pod"]
+
+product
+//li/article[@class="product_pod"]
+
+title
+/html/body/div/div/div/div/section/div[2]/ol/li[1]/article/h3/a
+//article/h3/a/@title
+
+url
+//article/h3/a/@href
+
+next
+/html/body/div/div/div/div/section/div[2]/div/ul/li[2]/a
+//div[2]/div/ul/li[2]/a
+
+detail table
+title
+//div[@class="col-sm-6 product_main"]/h1/text()
+
+price
+//div[@class="col-sm-6 product_main"]/p[@class="price_color"]/text()
+
+stock
+//div[@class="col-sm-6 product_main"]/p[@class="instock availability"]/text()
+//div[@class="col-sm-6 product_main"]/p[contains(@class, 'star-rating')]/@class
+
+
+/html/body/div/div/div[2]/div[2]/article/table
+/html/body/div/div/div[2]/div[2]/article/table/tbody/tr/td
+//article/table[@class='table-striped']
+//tbody/tr/td/text()
+//tbody/tr/td/text()
+//tbody/tr[1]/td/text()
+//th[contains(text(), 'UPC')]/following-sibling::td/text()
+
+
+reviews
+/html/body/div/div/div[2]/div[2]/article/table/tbody/tr[7]/td
+//tr[7]/td/text()
+//th[contains(text(), 'Number of reviews')]/following-sibling::td/text()
