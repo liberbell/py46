@@ -21,16 +21,9 @@ class BooksBasicSpider(scrapy.Spider):
             if url:
                 yield response.follow(url=url, callback=self.parse_item)
 
-            yield {
-                # "book_title": book_title,
-                # "url": url,
-                "book_upc": book_upc,
-                "book_reviews": book_reviews
-            }
-
-        # next_page = response.xpath("//li[@class='next']/a/@href")
-        # if next_page:
-        #     yield response.follow(url=next_page[0], callback=self.parse)
+        next_page = response.xpath("//li[@class='next']/a/@href")
+        if next_page:
+            yield response.follow(url=next_page[0], callback=self.parse)
             
     def parse_item(self, response):
         book_details = response.xpath("//div[@class='col-sm-6 product_main']")
