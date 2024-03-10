@@ -22,12 +22,16 @@ class ComputerBooksSpider(CrawlSpider):
         author = response.xpath("//div[3][@class='autherPublisher']/ul/li[1]/a/text()").get()
         price = response.xpath("//span[@class='redhot st']/text()").get()
         publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
+        pages = response.xpath("//ul[@class='dotted mt05 pt05']/li/text()")
+        isbn = response.xpath("//li[@itemprop='identifier']/text()")
 
         yield {
             "title": title,
             "author": author,
             "price": price,
-            "publisher": publisher
+            "publisher": publisher,
+            "pages": pages,
+            "isbn": isbn
         }
         # item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
