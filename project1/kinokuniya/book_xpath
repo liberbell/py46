@@ -14,6 +14,10 @@ detail title
 //h3/text()
 
 detail author
+/html/body/div[1]/div[2]/div[1]/form/div/div[2]
+//div[1][@class='infobox ml10 mt10']/ul/li[1]/a/text()
+//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()
+
 /html/body/div[1]/div[2]/div/div/div/form/div[3]
 //form/div[3]
 //div[3][@class='autherPublisher']/ul/li/a/text()
@@ -23,6 +27,7 @@ detail price
 /html/body/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/ul/li[1]/span/span
 //span/span[@class='redhot st']/text()
 //span[@class='redhot st']/text()
+//span[@class='redhot st']/@content
 
 detail publisher
 /html/body/div[1]/div[2]/div/div/div/form/div[3]/ul/li[3]/a
