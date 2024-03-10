@@ -18,6 +18,13 @@ class ComputerBooksSpider(CrawlSpider):
 
     def parse_item(self, response):
         logging.info(response.url)
+        title = response.xpath("//h3/text()").get()
+        author = response.xpath("//div[3][@class='autherPublisher']/ul/li[1]/a/text()").get()
+
+        yield {
+            "title": title,
+            "author": author
+        }
         # item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
         #item['name'] = response.xpath('//div[@id="name"]').get()

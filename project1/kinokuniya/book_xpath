@@ -1,0 +1,38 @@
+book
+/html/body/div[1]/div[2]/div[2]/form/div[1]/div[1]/div[2]
+//h3/a
+//h3[@class='heightLine-2']/a/@href
+
+next link
+/html/body/div[1]/div[2]/div[2]/div[2]/div/div[2]/ul/li[5]/a
+//a[@class='link_next']/@href
+//a[contains(text(), "次へ")]/@href
+(//a[contains(text(), "次へ")])[1]
+
+detail title
+/html/body/div[1]/div[2]/div/div/div/form/div[1]/h3
+//h3/text()
+
+detail author
+/html/body/div[1]/div[2]/div/div/div/form/div[3]
+//form/div[3]
+//div[3][@class='autherPublisher']/ul/li/a/text()
+//div[3][@class='autherPublisher']/ul/li[1]/a/text()
+
+detail price
+/html/body/div[1]/div[2]/div/div/div/form/div[2]/div[2]/div/ul/li[1]/span/span
+//span/span[@class='redhot st']/text()
+//span[@class='redhot st']/text()
+
+detail publisher
+/html/body/div[1]/div[2]/div/div/div/form/div[3]/ul/li[3]/a
+//a[contains(@href, 'publisher-key')]/text()
+
+detail pages
+/html/body/div[1]/div[2]/div/div/div/form/div[5]/ul[2]/li[1]
+//ul[@class='dotted mt05 pt05']/li/text()
+
+
+detail idbn
+/html/body/div[1]/div[2]/div/div/div/form/div[5]/ul[2]/li[2]
+//li[@itemprop='identifier']/text()
