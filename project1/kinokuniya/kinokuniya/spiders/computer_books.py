@@ -12,8 +12,8 @@ class ComputerBooksSpider(CrawlSpider):
     rules = (
         Rule(LinkExtractor(restrict_xpaths="//h3[@class='heightLine-2']/a"),
              callback='parse_item', follow=False),
-        Rule(LinkExtractor(restrict_xpaths="(//a[contains(text(), '次へ')])[1]"),
-             follow=True),
+        # Rule(LinkExtractor(restrict_xpaths="(//a[contains(text(), '次へ')])[1]"),
+        #      follow=True),
     )
 
     def parse_item(self, response):
@@ -22,14 +22,16 @@ class ComputerBooksSpider(CrawlSpider):
         author = response.xpath("//div[3][@class='autherPublisher']/ul/li[1]/a/text()").get()
         price = response.xpath("//span[@class='redhot st']/text()").get()
         publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
-        pages = response.xpath("//ul[@class='dotted mt05 pt05']/li/text()")
-        isbn = response.xpath("//li[@itemprop='identifier']/text()")
+        size = response.xpath("//ul[@class='dotted mt05 pt05']/li/text()").get()
+        pages = response.xpath("//ul[@class='dotted mt05 pt05']/li/text()").get()
+        isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
         yield {
             "title": title,
             "author": author,
             "price": price,
             "publisher": publisher,
+            "size": size,
             "pages": pages,
             "isbn": isbn
         }
