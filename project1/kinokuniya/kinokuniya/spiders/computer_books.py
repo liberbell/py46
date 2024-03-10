@@ -20,10 +20,14 @@ class ComputerBooksSpider(CrawlSpider):
         logging.info(response.url)
         title = response.xpath("//h3/text()").get()
         author = response.xpath("//div[3][@class='autherPublisher']/ul/li[1]/a/text()").get()
+        price = response.xpath("//span[@class='redhot st']/text()").get()
+        publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
 
         yield {
             "title": title,
-            "author": author
+            "author": author,
+            "price": price,
+            "publisher": publisher
         }
         # item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
