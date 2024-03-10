@@ -19,7 +19,7 @@ class ComputerBooksSpider(CrawlSpider):
     def parse_item(self, response):
         logging.info(response.url)
         title = response.xpath("//h3/text()").get()
-        author = response.xpath("//div[3][@class='autherPublisher']/ul/li[1]/a/text()").get()
+        author = response.xpath("//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()").get()
         price = response.xpath("//span[@class='redhot st']/text()").get()
         publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
         size = response.xpath("//ul[@class='dotted mt05 pt05']/li/text()").get()
