@@ -18,7 +18,8 @@ class ComputerBooksSpider(CrawlSpider):
 
     def get_title(self, title):
         if title:
-            return '  '.join(title)
+            return '  '.join(title).lstrip()
+        return title
 
     def parse_item(self, response):
         logging.info(response.url)
@@ -31,7 +32,7 @@ class ComputerBooksSpider(CrawlSpider):
         isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
         yield {
-            "title": title,
+            "title": self.get_title(title),
             "author": author,
             "price": price,
             "publisher": publisher,
@@ -39,7 +40,7 @@ class ComputerBooksSpider(CrawlSpider):
             "pages": pages,
             "isbn": isbn
         }
-        logging.info(price)
+        logging.info(size)
         # item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
         #item['name'] = response.xpath('//div[@id="name"]').get()
