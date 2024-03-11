@@ -20,6 +20,10 @@ class ComputerBooksSpider(CrawlSpider):
         if title:
             return '  '.join(title).lstrip()
         return title
+    
+    def get_price(self, price):
+        if price:
+            return price("¥", "").replace(",", "")
 
     def parse_item(self, response):
         logging.info(response.url)
