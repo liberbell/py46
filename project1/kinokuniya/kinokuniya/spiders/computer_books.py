@@ -23,7 +23,8 @@ class ComputerBooksSpider(CrawlSpider):
     
     def get_price(self, price):
         if price:
-            return price("¥", "").replace(",", "")
+            return int(price("¥", "").replace(",", ""))
+        return 0
 
     def parse_item(self, response):
         logging.info(response.url)
@@ -38,7 +39,7 @@ class ComputerBooksSpider(CrawlSpider):
         yield {
             "title": self.get_title(title),
             "author": author,
-            "price": price,
+            "price": self.get_price(price),
             "publisher": publisher,
             "size": size,
             "pages": pages,
