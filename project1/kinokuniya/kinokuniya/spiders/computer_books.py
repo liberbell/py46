@@ -23,7 +23,7 @@ class ComputerBooksSpider(CrawlSpider):
     
     def get_price(self, price):
         if price:
-            return int(price("¥", "").replace(",", ""))
+            return int(price('¥', '').replace(',', ''))
         return 0
 
     def parse_item(self, response):
