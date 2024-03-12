@@ -25,6 +25,10 @@ class ComputerBooksSpider(CrawlSpider):
         if price:
             return int(price.replace('¥', '').replace(',', ''))
         return 0
+    
+    def get_size(self, size):
+        if size:
+            return size.split("/")[0].replace("\n", "")
 
     def parse_item(self, response):
         logging.info(response.url)
@@ -41,7 +45,7 @@ class ComputerBooksSpider(CrawlSpider):
             "author": author,
             "price": self.get_price(price),
             "publisher": publisher,
-            "size": size,
+            "size": self.get_size(size),
             "pages": pages,
             "isbn": isbn
         }
