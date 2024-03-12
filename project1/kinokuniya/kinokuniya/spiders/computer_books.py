@@ -32,7 +32,7 @@ class ComputerBooksSpider(CrawlSpider):
         return size
     
     def get_page(self, page):
-        if size:
+        if page:
             return page.split("/")[0].replace("\n", "").replace("p", "")
         return page
 
