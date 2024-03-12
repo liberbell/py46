@@ -30,6 +30,11 @@ class ComputerBooksSpider(CrawlSpider):
         if size:
             return size.split("/")[2].replace("\n", "").replace("版", "")
         return size
+    
+    def get_page(self, page):
+        if size:
+            return page.split("/")[0].replace("\n", "").replace("p", "")
+        return page
 
     def parse_item(self, response):
         logging.info(response.url)
@@ -37,8 +42,8 @@ class ComputerBooksSpider(CrawlSpider):
         author = response.xpath("//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()").get()
         price = response.xpath("//span[@itemprop='price']/text()").get()
         publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
-        size = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())").get()
-        pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").get()
+        size = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())").getall()
+        pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").getall()
         isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
         yield {
