@@ -37,8 +37,10 @@ detail pages
 /html/body/div[1]/div[2]/div/div/div/form/div[5]/ul[2]/li[1]
 //ul[@class='dotted mt05 pt05']/li/text()
 
-/html/body/div[1]/div[2]/div/div/div/form/div[5]/ul[2]/li[1]
+/html/body/div[1]/div[2]/div/div/div/form/
 
+
+464p/24cm/B5判
 
 detail idbn
 /html/body/div[1]/div[2]/div/div/div/form/div[5]/ul[2]/li[2]
