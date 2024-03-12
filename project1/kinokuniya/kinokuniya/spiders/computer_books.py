@@ -32,7 +32,7 @@ class ComputerBooksSpider(CrawlSpider):
         author = response.xpath("//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()").get()
         price = response.xpath("//span[@itemprop='price']/text()").get()
         publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
-        size = response.xpath("normalize-space(//div[5]/ul[2]/li[1]/text())").get()
+        size = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())").get()
         pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").get()
         isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
