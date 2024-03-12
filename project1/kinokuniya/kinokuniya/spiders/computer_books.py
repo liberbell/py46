@@ -28,7 +28,8 @@ class ComputerBooksSpider(CrawlSpider):
     
     def get_size(self, size):
         if size:
-            return size.split("/")[0].replace("\n", "")
+            return size.split("/")[2].replace("\n", "").replace("版", "")
+        return size
 
     def parse_item(self, response):
         logging.info(response.url)
