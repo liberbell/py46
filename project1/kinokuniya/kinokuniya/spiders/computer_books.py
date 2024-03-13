@@ -29,7 +29,7 @@ class ComputerBooksSpider(CrawlSpider):
     def get_size(self, size):
         if size:
             logging.info(size)
-            size = size.split("\n")[2]
+            size = size.replace("\n")[2]
             logging.info(size)
             return size
         return size
@@ -41,7 +41,7 @@ class ComputerBooksSpider(CrawlSpider):
     
     def get_isbn(self, isbn):
         if isbn:
-            return isbn.split("商品コード ", "")
+            return isbn.replace("商品コード ", "")
         return isbn
 
     def parse_item(self, response):
