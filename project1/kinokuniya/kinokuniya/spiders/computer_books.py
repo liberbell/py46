@@ -38,6 +38,11 @@ class ComputerBooksSpider(CrawlSpider):
         if page:
             return page.split("/")[0].replace("\n", "").replace("p", "")
         return page
+    
+    def get_isbn(self, isbn):
+        if isbn:
+            return isbn.split("商品コード ", "")
+        return isbn
 
     def parse_item(self, response):
         logging.info(response.url)
@@ -56,7 +61,7 @@ class ComputerBooksSpider(CrawlSpider):
             "publisher": publisher,
             "size": self.get_size(size),
             "pages": pages,
-            "isbn": isbn
+            "isbn": self.get_isbn(isbn)
         }
         logging.info(size)
         # item = {}
