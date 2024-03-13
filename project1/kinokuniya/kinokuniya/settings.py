@@ -88,3 +88,5 @@ DOWNLOAD_DELAY = 1
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 FEED_EXPORT_ENCODING = 'utf-8'
+
+CONCURRENT_REQUESTS = 1
