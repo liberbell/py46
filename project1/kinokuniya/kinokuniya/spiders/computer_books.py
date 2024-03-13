@@ -28,6 +28,7 @@ class ComputerBooksSpider(CrawlSpider):
     
     def get_size(self, size):
         if size:
+            logging.info(size)
             size = size.split("\n")[2]
             logging.info(size)
             return size
