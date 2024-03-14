@@ -14,6 +14,9 @@ class BooksCrawlSpider(CrawlSpider):
     )
 
     def parse_item(self, response):
+        books = response.xpath("//article[@class='product_pod']")
+        title = books.xpath(".//h3/a/text()").get()
+        price = books.xpath()
         item = {}
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
         #item['name'] = response.xpath('//div[@id="name"]').get()
