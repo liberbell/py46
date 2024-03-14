@@ -5,8 +5,8 @@ from scrapy.spiders import CrawlSpider, Rule
 
 class BooksCrawlSpider(CrawlSpider):
     name = 'books_crawl'
-    allowed_domains = ['books.toscrape.com/catalogue/category/books/fantasy_19/index.html']
-    start_urls = ['http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html/']
+    allowed_domains = ['books.toscrape.com']
+    start_urls = ['https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html']
 
     rules = (
         Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
