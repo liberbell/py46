@@ -1,50 +1,722 @@
 [
-{"title": ["The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ...", "A Series of Catastrophes ...", "Angels Walking (Angels Walking ..."], "price": "£26.20", "stock": "\n    ", "rating": "star-rating One", "UPC": "7ae099f3898e0209", "reviews": "0"},
-{"title": ["A Shard of Ice ...", "The Star-Touched Queen", "Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ..."], "price": "£56.63", "stock": "\n    ", "rating": "star-rating Three", "UPC": "4c82371b8cd02d4d", "reviews": "0"},
-{"title": ["The Star-Touched Queen", "Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ..."], "price": "£32.30", "stock": "\n    ", "rating": "star-rating Five", "UPC": "63d5f1651880dcea", "reviews": "0"},
-{"title": ["Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ..."], "price": "£38.73", "stock": "\n    ", "rating": "star-rating One", "UPC": "4a7a25be293ad678", "reviews": "0"},
-{"title": ["City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen"], "price": "£56.02", "stock": "\n    ", "rating": "star-rating Four", "UPC": "2f0213137a80d485", "reviews": "0"},
-{"title": ["Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ..."], "price": "£37.51", "stock": "\n    ", "rating": "star-rating Five", "UPC": "966ebb738e0f9d9b", "reviews": "0"},
-{"title": ["Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ..."], "price": "£29.65", "stock": "\n    ", "rating": "star-rating One", "UPC": "3c6fe637a0180b01", "reviews": "0"},
-{"title": ["The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ..."], "price": "£44.73", "stock": "\n    ", "rating": "star-rating Four", "UPC": "2b52334fab158861", "reviews": "0"},
-{"title": ["The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ..."], "price": "£52.26", "stock": "\n    ", "rating": "star-rating Two", "UPC": "dc6f688b82e42a5b", "reviews": "0"},
-{"title": ["The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ..."], "price": "£46.02", "stock": "\n    ", "rating": "star-rating Five", "UPC": "992974ba6a0536ea", "reviews": "0"},
-{"title": ["Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ..."], "price": "£42.98", "stock": "\n    ", "rating": "star-rating One", "UPC": "1528279aec1f3dce", "reviews": "0"},
-{"title": ["The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows"], "price": "£44.28", "stock": "\n    ", "rating": "star-rating One", "UPC": "4ce91d31c1e57c33", "reviews": "0"},
-{"title": ["Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ..."], "price": "£35.07", "stock": "\n    ", "rating": "star-rating Three", "UPC": "2dbb7ec08cdd7f3c", "reviews": "0"},
-{"title": ["A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ..."], "price": "£52.37", "stock": "\n    ", "rating": "star-rating One", "UPC": "590a9cccf7db9f7d", "reviews": "0"},
-{"title": ["Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks"], "price": "£28.09", "stock": "\n    ", "rating": "star-rating Two", "UPC": "01d2001ac1e6f8a3", "reviews": "0"},
-{"title": ["Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ..."], "price": "£43.29", "stock": "\n    ", "rating": "star-rating Three", "UPC": "6d5300b2d8f37e07", "reviews": "0"},
-{"title": ["Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook"], "price": "£56.40", "stock": "\n    ", "rating": "star-rating Two", "UPC": "7267864328ae8b9d", "reviews": "0"},
-{"title": ["Ash", "Darkfever (Fever #1)", "Eragon (The Inheritance Cycle ...", "Heir to the Sky", "Midnight Riot (Peter Grant/ ...", "Soldier (Talon #3)"], "price": "£22.06", "stock": "\n    ", "rating": "star-rating Four", "UPC": "87beabf664115d79", "reviews": "0"},
-{"title": ["Darkfever (Fever #1)", "Eragon (The Inheritance Cycle ...", "Heir to the Sky", "Midnight Riot (Peter Grant/ ...", "Soldier (Talon #3)", "The Rose & the ..."], "price": "£56.02", "stock": "\n    ", "rating": "star-rating One", "UPC": "5d22e2a46604b6e7", "reviews": "0"},
-{"title": ["Eragon (The Inheritance Cycle ...", "Heir to the Sky", "Midnight Riot (Peter Grant/ ...", "Soldier (Talon #3)", "The Rose & the ...", "Harry Potter and the ..."], "price": "£43.87", "stock": "\n    ", "rating": "star-rating Three", "UPC": "468bd274ac084bb9", "reviews": "0"},
-{"title": ["Heir to the Sky", "Midnight Riot (Peter Grant/ ...", "Soldier (Talon #3)", "The Rose & the ...", "Harry Potter and the ...", "Harry Potter and the ..."], "price": "£44.07", "stock": "\n    ", "rating": "star-rating Four", "UPC": "b843f52a986a2914", "reviews": "0"},
-{"title": ["Midnight Riot (Peter Grant/ ...", "Soldier (Talon #3)", "The Rose & the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Harry Potter and the ..."], "price": "£55.46", "stock": "\n    ", "rating": "star-rating Two", "UPC": "b003f8bb02f76dc5", "reviews": "0"},
-{"title": ["Soldier (Talon #3)", "The Rose & the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Paper and Fire (The ..."], "price": "£24.72", "stock": "\n    ", "rating": "star-rating Two", "UPC": "e9056f9b5a40a301", "reviews": "0"},
-{"title": ["The Rose & the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Paper and Fire (The ...", "The Beast (Black Dagger ..."], "price": "£58.64", "stock": "\n    ", "rating": "star-rating Four", "UPC": "feaaae90514eb2ac", "reviews": "0"},
-{"title": ["Harry Potter and the ...", "Harry Potter and the ...", "Harry Potter and the ...", "Paper and Fire (The ...", "The Beast (Black Dagger ...", "The Demonists (Demonist #1)"], "price": "£14.74", "stock": "\n    ", "rating": "star-rating One", "UPC": "322a9e34d87f54b1", "reviews": "0"},
-{"title": ["Harry Potter and the ...", "Harry Potter and the ...", "Paper and Fire (The ...", "The Beast (Black Dagger ...", "The Demonists (Demonist #1)", "A Feast for Crows ..."], "price": "£48.75", "stock": "\n    ", "rating": "star-rating Five", "UPC": "c7c4f55b7321cba7", "reviews": "0"},
-{"title": ["Harry Potter and the ...", "Paper and Fire (The ...", "The Beast (Black Dagger ...", "The Demonists (Demonist #1)", "A Feast for Crows ...", "Tell the Wind and ..."], "price": "£31.63", "stock": "\n    ", "rating": "star-rating Four", "UPC": "73f4f87dd936ee5c", "reviews": "0"},
-{"title": ["Paper and Fire (The ...", "The Beast (Black Dagger ...", "The Demonists (Demonist #1)", "A Feast for Crows ...", "Tell the Wind and ...", "The False Prince (The ..."], "price": "£49.45", "stock": "\n    ", "rating": "star-rating Five", "UPC": "5a6b7155f2797537", "reviews": "0"},
-{"title": ["The Beast (Black Dagger ...", "The Demonists (Demonist #1)", "A Feast for Crows ...", "Tell the Wind and ...", "The False Prince (The ...", "The Raven Boys (The ..."], "price": "£46.08", "stock": "\n    ", "rating": "star-rating Five", "UPC": "ae884ac655d6ee3e", "reviews": "0"},
-{"title": ["The Demonists (Demonist #1)", "A Feast for Crows ...", "Tell the Wind and ...", "The False Prince (The ...", "The Raven Boys (The ...", "A Gathering of Shadows ..."], "price": "£52.11", "stock": "\n    ", "rating": "star-rating Two", "UPC": "8930013d06942df1", "reviews": "0"},
-{"title": ["A Feast for Crows ...", "Tell the Wind and ...", "The False Prince (The ...", "The Raven Boys (The ...", "A Gathering of Shadows ...", "Every Heart a Doorway ..."], "price": "£17.21", "stock": "\n    ", "rating": "star-rating Four", "UPC": "ff2dffba388d9922", "reviews": "0"},
-{"title": ["Tell the Wind and ...", "The False Prince (The ...", "The Raven Boys (The ...", "A Gathering of Shadows ...", "Every Heart a Doorway ...", "Find Her (Detective D.D. ..."], "price": "£45.51", "stock": "\n    ", "rating": "star-rating Three", "UPC": "f2c8f4b4c94d5c5c", "reviews": "0"},
-{"title": ["The False Prince (The ...", "The Raven Boys (The ...", "A Gathering of Shadows ...", "Every Heart a Doorway ...", "Find Her (Detective D.D. ...", "The Raven King (The ..."], "price": "£56.00", "stock": "\n    ", "rating": "star-rating Five", "UPC": "84126312e2431a09", "reviews": "0"},
-{"title": ["One Second (Seven #7)", "Origins (Alphas 0.5)", "Shadow Rites (Jane Yellowrock ...", "Sister Sable (The Mad ...", "The Mirror & the ...", "The Silent Twin (Detective ..."], "price": "£52.94", "stock": "\n    ", "rating": "star-rating Two", "UPC": "63e20a0f98218a87", "reviews": "0"},
-{"title": ["Origins (Alphas 0.5)", "Shadow Rites (Jane Yellowrock ...", "Sister Sable (The Mad ...", "The Mirror & the ...", "The Silent Twin (Detective ...", "Vampire Girl (Vampire Girl ..."], "price": "£28.99", "stock": "\n    ", "rating": "star-rating One", "UPC": "7ea31f38675b91c1", "reviews": "0"},
-{"title": ["Shadow Rites (Jane Yellowrock ...", "Sister Sable (The Mad ...", "The Mirror & the ...", "The Silent Twin (Detective ...", "Vampire Girl (Vampire Girl ...", "#GIRLBOSS"], "price": "£21.72", "stock": "\n    ", "rating": "star-rating Four", "UPC": "8932e5c12f12ffed", "reviews": "0"},
-{"title": ["Sister Sable (The Mad ...", "The Mirror & the ...", "The Silent Twin (Detective ...", "Vampire Girl (Vampire Girl ...", "#GIRLBOSS", "Cosmos"], "price": "£13.33", "stock": "\n    ", "rating": "star-rating Three", "UPC": "229cd6564bf0dce4", "reviews": "0"},
-{"title": ["The Mirror & the ...", "The Silent Twin (Detective ...", "Vampire Girl (Vampire Girl ...", "#GIRLBOSS", "Cosmos", "Fire Bound (Sea Haven/Sisters ..."], "price": "£29.38", "stock": "\n    ", "rating": "star-rating One", "UPC": "3a9a7c5895e82646", "reviews": "0"},
-{"title": ["The Silent Twin (Detective ...", "Vampire Girl (Vampire Girl ...", "#GIRLBOSS", "Cosmos", "Fire Bound (Sea Haven/Sisters ...", "Manuscript Found in Accra"], "price": "£36.25", "stock": "\n    ", "rating": "star-rating Three", "UPC": "c40b70e0f6d80189", "reviews": "0"},
-{"title": ["Vampire Girl (Vampire Girl ...", "#GIRLBOSS", "Cosmos", "Fire Bound (Sea Haven/Sisters ...", "Manuscript Found in Accra", "Rogue Lawyer (Rogue Lawyer ..."], "price": "£53.82", "stock": "\n    ", "rating": "star-rating Two", "UPC": "9e9932ae1a7d0943", "reviews": "0"},
-{"title": ["#GIRLBOSS", "Cosmos", "Fire Bound (Sea Haven/Sisters ...", "Manuscript Found in Accra", "Rogue Lawyer (Rogue Lawyer ...", "Sarah's Key"], "price": "£50.96", "stock": "\n    ", "rating": "star-rating One", "UPC": "dab5e75d1339706a", "reviews": "0"},
-{"title": ["The Raven Boys (The ...", "A Gathering of Shadows ...", "Every Heart a Doorway ...", "Find Her (Detective D.D. ...", "The Raven King (The ...", "Fun Home: A Family ..."], "price": "£57.74", "stock": "\n    ", "rating": "star-rating Four", "UPC": "a2a9f76339d21ab1", "reviews": "0"},
-{"title": ["A Gathering of Shadows ...", "Every Heart a Doorway ...", "Find Her (Detective D.D. ...", "The Raven King (The ...", "Fun Home: A Family ...", "Mere Christianity"], "price": "£44.81", "stock": "\n    ", "rating": "star-rating Four", "UPC": "e0b3a679b83caccc", "reviews": "0"},
-{"title": ["Every Heart a Doorway ...", "Find Her (Detective D.D. ...", "The Raven King (The ...", "Fun Home: A Family ...", "Mere Christianity", "Pride and Prejudice"], "price": "£12.16", "stock": "\n    ", "rating": "star-rating Five", "UPC": "d1378a0ad06ff979", "reviews": "0"},
-{"title": ["Find Her (Detective D.D. ...", "The Raven King (The ...", "Fun Home: A Family ...", "Mere Christianity", "Pride and Prejudice", "The God Delusion"], "price": "£22.37", "stock": "\n    ", "rating": "star-rating One", "UPC": "4fa75fc6829431ca", "reviews": "0"},
-{"title": ["Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ..."], "price": "£13.34", "stock": "\n    ", "rating": "star-rating Five", "UPC": "fa9610a50a1bf149", "reviews": "0"},
-{"title": ["Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ..."], "price": "£25.02", "stock": "\n    ", "rating": "star-rating Three", "UPC": "0e691eda369f4e09", "reviews": "0"},
-{"title": ["Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ...", "A Series of Catastrophes ..."], "price": "£18.78", "stock": "\n    ", "rating": "star-rating Three", "UPC": "c849f0b2f5d6a742", "reviews": "0"}
+    {
+        "title": [
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ...",
+            "A Series of Catastrophes ...",
+            "Angels Walking (Angels Walking ..."
+        ],
+        "price": "£26.20",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "7ae099f3898e0209",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "A Shard of Ice ...",
+            "The Star-Touched Queen",
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ..."
+        ],
+        "price": "£56.63",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "4c82371b8cd02d4d",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Star-Touched Queen",
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ..."
+        ],
+        "price": "£32.30",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "63d5f1651880dcea",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ..."
+        ],
+        "price": "£38.73",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "4a7a25be293ad678",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen"
+        ],
+        "price": "£56.02",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "2f0213137a80d485",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ..."
+        ],
+        "price": "£37.51",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "966ebb738e0f9d9b",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ..."
+        ],
+        "price": "£29.65",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "3c6fe637a0180b01",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ..."
+        ],
+        "price": "£44.73",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "2b52334fab158861",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ..."
+        ],
+        "price": "£52.26",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "dc6f688b82e42a5b",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ..."
+        ],
+        "price": "£46.02",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "992974ba6a0536ea",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ..."
+        ],
+        "price": "£42.98",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "1528279aec1f3dce",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows"
+        ],
+        "price": "£44.28",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "4ce91d31c1e57c33",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ..."
+        ],
+        "price": "£35.07",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "2dbb7ec08cdd7f3c",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ..."
+        ],
+        "price": "£52.37",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "590a9cccf7db9f7d",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks"
+        ],
+        "price": "£28.09",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "01d2001ac1e6f8a3",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ..."
+        ],
+        "price": "£43.29",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "6d5300b2d8f37e07",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook"
+        ],
+        "price": "£56.40",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "7267864328ae8b9d",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Ash",
+            "Darkfever (Fever #1)",
+            "Eragon (The Inheritance Cycle ...",
+            "Heir to the Sky",
+            "Midnight Riot (Peter Grant/ ...",
+            "Soldier (Talon #3)"
+        ],
+        "price": "£22.06",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "87beabf664115d79",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Darkfever (Fever #1)",
+            "Eragon (The Inheritance Cycle ...",
+            "Heir to the Sky",
+            "Midnight Riot (Peter Grant/ ...",
+            "Soldier (Talon #3)",
+            "The Rose & the ..."
+        ],
+        "price": "£56.02",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "5d22e2a46604b6e7",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Eragon (The Inheritance Cycle ...",
+            "Heir to the Sky",
+            "Midnight Riot (Peter Grant/ ...",
+            "Soldier (Talon #3)",
+            "The Rose & the ...",
+            "Harry Potter and the ..."
+        ],
+        "price": "£43.87",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "468bd274ac084bb9",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Heir to the Sky",
+            "Midnight Riot (Peter Grant/ ...",
+            "Soldier (Talon #3)",
+            "The Rose & the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ..."
+        ],
+        "price": "£44.07",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "b843f52a986a2914",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Midnight Riot (Peter Grant/ ...",
+            "Soldier (Talon #3)",
+            "The Rose & the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ..."
+        ],
+        "price": "£55.46",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "b003f8bb02f76dc5",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Soldier (Talon #3)",
+            "The Rose & the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Paper and Fire (The ..."
+        ],
+        "price": "£24.72",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "e9056f9b5a40a301",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Rose & the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Paper and Fire (The ...",
+            "The Beast (Black Dagger ..."
+        ],
+        "price": "£58.64",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "feaaae90514eb2ac",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Paper and Fire (The ...",
+            "The Beast (Black Dagger ...",
+            "The Demonists (Demonist #1)"
+        ],
+        "price": "£14.74",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "322a9e34d87f54b1",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Harry Potter and the ...",
+            "Harry Potter and the ...",
+            "Paper and Fire (The ...",
+            "The Beast (Black Dagger ...",
+            "The Demonists (Demonist #1)",
+            "A Feast for Crows ..."
+        ],
+        "price": "£48.75",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "c7c4f55b7321cba7",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Harry Potter and the ...",
+            "Paper and Fire (The ...",
+            "The Beast (Black Dagger ...",
+            "The Demonists (Demonist #1)",
+            "A Feast for Crows ...",
+            "Tell the Wind and ..."
+        ],
+        "price": "£31.63",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "73f4f87dd936ee5c",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Paper and Fire (The ...",
+            "The Beast (Black Dagger ...",
+            "The Demonists (Demonist #1)",
+            "A Feast for Crows ...",
+            "Tell the Wind and ...",
+            "The False Prince (The ..."
+        ],
+        "price": "£49.45",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "5a6b7155f2797537",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Beast (Black Dagger ...",
+            "The Demonists (Demonist #1)",
+            "A Feast for Crows ...",
+            "Tell the Wind and ...",
+            "The False Prince (The ...",
+            "The Raven Boys (The ..."
+        ],
+        "price": "£46.08",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "ae884ac655d6ee3e",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Demonists (Demonist #1)",
+            "A Feast for Crows ...",
+            "Tell the Wind and ...",
+            "The False Prince (The ...",
+            "The Raven Boys (The ...",
+            "A Gathering of Shadows ..."
+        ],
+        "price": "£52.11",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "8930013d06942df1",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "A Feast for Crows ...",
+            "Tell the Wind and ...",
+            "The False Prince (The ...",
+            "The Raven Boys (The ...",
+            "A Gathering of Shadows ...",
+            "Every Heart a Doorway ..."
+        ],
+        "price": "£17.21",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "ff2dffba388d9922",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Tell the Wind and ...",
+            "The False Prince (The ...",
+            "The Raven Boys (The ...",
+            "A Gathering of Shadows ...",
+            "Every Heart a Doorway ...",
+            "Find Her (Detective D.D. ..."
+        ],
+        "price": "£45.51",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "f2c8f4b4c94d5c5c",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The False Prince (The ...",
+            "The Raven Boys (The ...",
+            "A Gathering of Shadows ...",
+            "Every Heart a Doorway ...",
+            "Find Her (Detective D.D. ...",
+            "The Raven King (The ..."
+        ],
+        "price": "£56.00",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "84126312e2431a09",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "One Second (Seven #7)",
+            "Origins (Alphas 0.5)",
+            "Shadow Rites (Jane Yellowrock ...",
+            "Sister Sable (The Mad ...",
+            "The Mirror & the ...",
+            "The Silent Twin (Detective ..."
+        ],
+        "price": "£52.94",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "63e20a0f98218a87",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Origins (Alphas 0.5)",
+            "Shadow Rites (Jane Yellowrock ...",
+            "Sister Sable (The Mad ...",
+            "The Mirror & the ...",
+            "The Silent Twin (Detective ...",
+            "Vampire Girl (Vampire Girl ..."
+        ],
+        "price": "£28.99",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "7ea31f38675b91c1",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Shadow Rites (Jane Yellowrock ...",
+            "Sister Sable (The Mad ...",
+            "The Mirror & the ...",
+            "The Silent Twin (Detective ...",
+            "Vampire Girl (Vampire Girl ...",
+            "#GIRLBOSS"
+        ],
+        "price": "£21.72",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "8932e5c12f12ffed",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Sister Sable (The Mad ...",
+            "The Mirror & the ...",
+            "The Silent Twin (Detective ...",
+            "Vampire Girl (Vampire Girl ...",
+            "#GIRLBOSS",
+            "Cosmos"
+        ],
+        "price": "£13.33",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "229cd6564bf0dce4",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Mirror & the ...",
+            "The Silent Twin (Detective ...",
+            "Vampire Girl (Vampire Girl ...",
+            "#GIRLBOSS",
+            "Cosmos",
+            "Fire Bound (Sea Haven/Sisters ..."
+        ],
+        "price": "£29.38",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "3a9a7c5895e82646",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Silent Twin (Detective ...",
+            "Vampire Girl (Vampire Girl ...",
+            "#GIRLBOSS",
+            "Cosmos",
+            "Fire Bound (Sea Haven/Sisters ...",
+            "Manuscript Found in Accra"
+        ],
+        "price": "£36.25",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "c40b70e0f6d80189",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Vampire Girl (Vampire Girl ...",
+            "#GIRLBOSS",
+            "Cosmos",
+            "Fire Bound (Sea Haven/Sisters ...",
+            "Manuscript Found in Accra",
+            "Rogue Lawyer (Rogue Lawyer ..."
+        ],
+        "price": "£53.82",
+        "stock": "\n    ",
+        "rating": "star-rating Two",
+        "UPC": "9e9932ae1a7d0943",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "#GIRLBOSS",
+            "Cosmos",
+            "Fire Bound (Sea Haven/Sisters ...",
+            "Manuscript Found in Accra",
+            "Rogue Lawyer (Rogue Lawyer ...",
+            "Sarah's Key"
+        ],
+        "price": "£50.96",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "dab5e75d1339706a",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "The Raven Boys (The ...",
+            "A Gathering of Shadows ...",
+            "Every Heart a Doorway ...",
+            "Find Her (Detective D.D. ...",
+            "The Raven King (The ...",
+            "Fun Home: A Family ..."
+        ],
+        "price": "£57.74",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "a2a9f76339d21ab1",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "A Gathering of Shadows ...",
+            "Every Heart a Doorway ...",
+            "Find Her (Detective D.D. ...",
+            "The Raven King (The ...",
+            "Fun Home: A Family ...",
+            "Mere Christianity"
+        ],
+        "price": "£44.81",
+        "stock": "\n    ",
+        "rating": "star-rating Four",
+        "UPC": "e0b3a679b83caccc",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Every Heart a Doorway ...",
+            "Find Her (Detective D.D. ...",
+            "The Raven King (The ...",
+            "Fun Home: A Family ...",
+            "Mere Christianity",
+            "Pride and Prejudice"
+        ],
+        "price": "£12.16",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "d1378a0ad06ff979",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Find Her (Detective D.D. ...",
+            "The Raven King (The ...",
+            "Fun Home: A Family ...",
+            "Mere Christianity",
+            "Pride and Prejudice",
+            "The God Delusion"
+        ],
+        "price": "£22.37",
+        "stock": "\n    ",
+        "rating": "star-rating One",
+        "UPC": "4fa75fc6829431ca",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ..."
+        ],
+        "price": "£13.34",
+        "stock": "\n    ",
+        "rating": "star-rating Five",
+        "UPC": "fa9610a50a1bf149",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ..."
+        ],
+        "price": "£25.02",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "0e691eda369f4e09",
+        "reviews": "0"
+    },
+    {
+        "title": [
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ...",
+            "A Series of Catastrophes ..."
+        ],
+        "price": "£18.78",
+        "stock": "\n    ",
+        "rating": "star-rating Three",
+        "UPC": "c849f0b2f5d6a742",
+        "reviews": "0"
+    }
 ]
