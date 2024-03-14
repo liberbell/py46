@@ -1,22 +1,262 @@
 [
-{"title": ["The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ...", "A Series of Catastrophes ...", "Angels Walking (Angels Walking ..."], "price": "£26.20", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["A Shard of Ice ...", "The Star-Touched Queen", "Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ..."], "price": "£56.63", "stock": "\n    ", "rating": "star-rating Three"},
-{"title": ["The Star-Touched Queen", "Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ..."], "price": "£32.30", "stock": "\n    ", "rating": "star-rating Five"},
-{"title": ["Searching for Meaning in ...", "City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ..."], "price": "£38.73", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["City of Glass (The ...", "Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen"], "price": "£56.02", "stock": "\n    ", "rating": "star-rating Four"},
-{"title": ["Demigods & Magicians: Percy ...", "Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ..."], "price": "£37.51", "stock": "\n    ", "rating": "star-rating Five"},
-{"title": ["Island of Dragons (Unwanteds ...", "The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ..."], "price": "£29.65", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["The Bane Chronicles (The ...", "The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ..."], "price": "£44.73", "stock": "\n    ", "rating": "star-rating Four"},
-{"title": ["The Hidden Oracle (The ...", "The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ..."], "price": "£52.26", "stock": "\n    ", "rating": "star-rating Two"},
-{"title": ["The Star-Touched Queen", "Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ..."], "price": "£46.02", "stock": "\n    ", "rating": "star-rating Five"},
-{"title": ["Hollow City (Miss Peregrine’s ...", "The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ..."], "price": "£42.98", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["The Glittering Court (The ...", "Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows"], "price": "£44.28", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["Throne of Glass (Throne ...", "A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ..."], "price": "£35.07", "stock": "\n    ", "rating": "star-rating Three"},
-{"title": ["A Court of Thorns ...", "Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ..."], "price": "£52.37", "stock": "\n    ", "rating": "star-rating One"},
-{"title": ["Avatar: The Last Airbender: ...", "Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks"], "price": "£28.09", "stock": "\n    ", "rating": "star-rating Two"},
-{"title": ["Crown of Midnight (Throne ...", "Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ..."], "price": "£43.29", "stock": "\n    ", "rating": "star-rating Three"},
-{"title": ["Masks and Shadows", "Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook"], "price": "£56.40", "stock": "\n    ", "rating": "star-rating Two"},
-{"title": ["Princess Between Worlds (Wide-Awake ...", "Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ..."], "price": "£13.34", "stock": "\n    ", "rating": "star-rating Five"},
-{"title": ["Saga, Volume 6 (Saga ...", "Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ..."], "price": "£25.02", "stock": "\n    ", "rating": "star-rating Three"},
-{"title": ["Unicorn Tracks", "The Midnight Watch: A ...", "Rook", "A Brush of Wings ...", "A People's History of ...", "A Series of Catastrophes ..."], "price": "£18.78", "stock": "\n    ", "rating": "star-rating Three"}
+    {
+        "title": [
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ...",
+            "A Series of Catastrophes ...",
+            "Angels Walking (Angels Walking ..."
+        ],
+        "price": "£26.20",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "A Shard of Ice ...",
+            "The Star-Touched Queen",
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ..."
+        ],
+        "price": "£56.63",
+        "stock": "\n    ",
+        "rating": "star-rating Three"
+    },
+    {
+        "title": [
+            "The Star-Touched Queen",
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ..."
+        ],
+        "price": "£32.30",
+        "stock": "\n    ",
+        "rating": "star-rating Five"
+    },
+    {
+        "title": [
+            "Searching for Meaning in ...",
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ..."
+        ],
+        "price": "£38.73",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "City of Glass (The ...",
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen"
+        ],
+        "price": "£56.02",
+        "stock": "\n    ",
+        "rating": "star-rating Four"
+    },
+    {
+        "title": [
+            "Demigods & Magicians: Percy ...",
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ..."
+        ],
+        "price": "£37.51",
+        "stock": "\n    ",
+        "rating": "star-rating Five"
+    },
+    {
+        "title": [
+            "Island of Dragons (Unwanteds ...",
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ..."
+        ],
+        "price": "£29.65",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "The Bane Chronicles (The ...",
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ..."
+        ],
+        "price": "£44.73",
+        "stock": "\n    ",
+        "rating": "star-rating Four"
+    },
+    {
+        "title": [
+            "The Hidden Oracle (The ...",
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ..."
+        ],
+        "price": "£52.26",
+        "stock": "\n    ",
+        "rating": "star-rating Two"
+    },
+    {
+        "title": [
+            "The Star-Touched Queen",
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ..."
+        ],
+        "price": "£46.02",
+        "stock": "\n    ",
+        "rating": "star-rating Five"
+    },
+    {
+        "title": [
+            "Hollow City (Miss Peregrine’s ...",
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ..."
+        ],
+        "price": "£42.98",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "The Glittering Court (The ...",
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows"
+        ],
+        "price": "£44.28",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "Throne of Glass (Throne ...",
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ..."
+        ],
+        "price": "£35.07",
+        "stock": "\n    ",
+        "rating": "star-rating Three"
+    },
+    {
+        "title": [
+            "A Court of Thorns ...",
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ..."
+        ],
+        "price": "£52.37",
+        "stock": "\n    ",
+        "rating": "star-rating One"
+    },
+    {
+        "title": [
+            "Avatar: The Last Airbender: ...",
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks"
+        ],
+        "price": "£28.09",
+        "stock": "\n    ",
+        "rating": "star-rating Two"
+    },
+    {
+        "title": [
+            "Crown of Midnight (Throne ...",
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ..."
+        ],
+        "price": "£43.29",
+        "stock": "\n    ",
+        "rating": "star-rating Three"
+    },
+    {
+        "title": [
+            "Masks and Shadows",
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook"
+        ],
+        "price": "£56.40",
+        "stock": "\n    ",
+        "rating": "star-rating Two"
+    },
+    {
+        "title": [
+            "Princess Between Worlds (Wide-Awake ...",
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ..."
+        ],
+        "price": "£13.34",
+        "stock": "\n    ",
+        "rating": "star-rating Five"
+    },
+    {
+        "title": [
+            "Saga, Volume 6 (Saga ...",
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ..."
+        ],
+        "price": "£25.02",
+        "stock": "\n    ",
+        "rating": "star-rating Three"
+    },
+    {
+        "title": [
+            "Unicorn Tracks",
+            "The Midnight Watch: A ...",
+            "Rook",
+            "A Brush of Wings ...",
+            "A People's History of ...",
+            "A Series of Catastrophes ..."
+        ],
+        "price": "£18.78",
+        "stock": "\n    ",
+        "rating": "star-rating Three"
+    }
 ]
