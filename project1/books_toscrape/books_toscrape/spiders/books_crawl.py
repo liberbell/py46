@@ -17,8 +17,10 @@ class BooksCrawlSpider(CrawlSpider):
         books = response.xpath("//article[@class='product_pod']")
         title = books.xpath(".//h3/a/text()").getall()
         price = books.xpath(".//div[@class='product_price']/p/text()").get()
+        stock = books.xpath(".//div/p[@class='instock availability']/text()").get()
         
         yield {
             "title": title,
-            "price": price
+            "price": price,
+            "stock": stock
         }
