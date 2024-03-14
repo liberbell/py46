@@ -20,11 +20,13 @@ class BooksCrawlSpider(CrawlSpider):
         stock = books.xpath(".//div/p[@class='instock availability']/text()").get()
         rating = books.xpath(".//p[1]/@class").get()
         UPC = response.xpath("//tr[1]/td/text()").get()
+        reviews = response.xpath("//tr[7]/td/text()").get()
         
         yield {
             "title": title,
             "price": price,
             "stock": stock,
             "rating": rating,
-            "UPC": UPC
+            "UPC": UPC,
+            "reviews": reviews
         }
