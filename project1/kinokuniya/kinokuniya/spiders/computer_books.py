@@ -61,6 +61,8 @@ class ComputerBooksSpider(CrawlSpider):
         loader.add_xpath("author", "//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()")
         loader.add_xpath("price", "//span[@itemprop='price']/text()")
         loader.add_xpath("publisher", "//a[contains(@href, 'publisher-key')]/text()")
+        loader.add_xpath("size", "normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())")
+        loader.add_xpath("pages", "normalize-space(//ul[@class='dotted mt05 pt05']/li/text())")
 
 
         yield {
