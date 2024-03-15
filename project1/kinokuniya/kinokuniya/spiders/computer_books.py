@@ -3,7 +3,7 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import logging
 from kinokuniya.items import BookItem
-from scrapy.loader import Itemloder
+from scrapy.loader import Itemloader
 
 
 class ComputerBooksSpider(CrawlSpider):
@@ -56,7 +56,7 @@ class ComputerBooksSpider(CrawlSpider):
         # pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").getall()
         # isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
-        loader = Itemloder(item=BookItem(), response=response)
+        loader = Itemloader(item=BookItem(), response=response)
         loader.add_xpath("title", "//h3[@itemprop='name']/text()")
         loader.add_xpath("author", "//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()")
         loader.add_xpath("price", "//span[@itemprop='price']/text()")
