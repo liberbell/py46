@@ -3,7 +3,7 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import logging
 from kinokuniya.items import BookItem
-from scrapy.loder import Itemloder
+from scrapy.loader import Itemloder
 
 
 class ComputerBooksSpider(CrawlSpider):
