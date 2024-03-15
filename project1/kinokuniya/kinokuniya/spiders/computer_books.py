@@ -48,13 +48,13 @@ class ComputerBooksSpider(CrawlSpider):
 
     def parse_item(self, response):
         logging.info(response.url)
-        title = response.xpath("//h3[@itemprop='name']/text()").getall()
-        author = response.xpath("//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()").get()
-        price = response.xpath("//span[@itemprop='price']/text()").get()
-        publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
-        size = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())").get()
-        pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").getall()
-        isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
+        # title = response.xpath("//h3[@itemprop='name']/text()").getall()
+        # author = response.xpath("//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()").get()
+        # price = response.xpath("//span[@itemprop='price']/text()").get()
+        # publisher = response.xpath("//a[contains(@href, 'publisher-key')]/text()").get()
+        # size = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())").get()
+        # pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").getall()
+        # isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
         loader = Itemloder(item=BookItem(), response=response)
         loader.add_xpath("title", "//h3[@itemprop='name']/text()")
@@ -63,14 +63,17 @@ class ComputerBooksSpider(CrawlSpider):
         loader.add_xpath("publisher", "//a[contains(@href, 'publisher-key')]/text()")
         loader.add_xpath("size", "normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())")
         loader.add_xpath("pages", "normalize-space(//ul[@class='dotted mt05 pt05']/li/text())")
+        loader.add_xpath("isbn", "//li[@itemprop='identifier']/text()")
+
+        yield loader.load_item()
 
 
-        yield {
-            "title": self.get_title(title),
-            "author": author,
-            "price": self.get_price(price),
-            "publisher": publisher,
-            "size": self.get_size(size),
-            "pages": pages,
-            "isbn": self.get_isbn(isbn)
-        }
+        # yield {
+        #     "title": self.get_title(title),
+        #     "author": author,
+        #     "price": self.get_price(price),
+        #     "publisher": publisher,
+        #     "size": self.get_size(size),
+        #     "pages": pages,
+        #     "isbn": self.get_isbn(isbn)
+        # }
