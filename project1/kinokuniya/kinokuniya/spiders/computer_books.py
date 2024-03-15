@@ -56,6 +56,11 @@ class ComputerBooksSpider(CrawlSpider):
         pages = response.xpath("normalize-space(//ul[@class='dotted mt05 pt05']/li/text())").getall()
         isbn = response.xpath("//li[@itemprop='identifier']/text()").get()
 
+        loader = Itemloder(item=BookItem(), response=response)
+        loader.add_xpath("title", "//h3[@itemprop='name']/text()")
+        loader.add_xpath("author", "//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()")
+
+
         yield {
             "title": self.get_title(title),
             "author": author,
