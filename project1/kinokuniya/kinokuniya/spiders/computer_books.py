@@ -59,6 +59,8 @@ class ComputerBooksSpider(CrawlSpider):
         loader = Itemloder(item=BookItem(), response=response)
         loader.add_xpath("title", "//h3[@itemprop='name']/text()")
         loader.add_xpath("author", "//div[@class='infobox ml10 mt10']/ul/li[1]/a/text()")
+        loader.add_xpath("price", "//span[@itemprop='price']/text()")
+        loader.add_xpath("publisher", "//a[contains(@href, 'publisher-key')]/text()")
 
 
         yield {
