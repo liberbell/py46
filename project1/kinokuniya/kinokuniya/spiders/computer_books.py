@@ -2,6 +2,8 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 import logging
+from kinokuniya.items import BookItem
+from scrapy.loder import Itemloder
 
 
 class ComputerBooksSpider(CrawlSpider):
@@ -63,9 +65,3 @@ class ComputerBooksSpider(CrawlSpider):
             "pages": pages,
             "isbn": self.get_isbn(isbn)
         }
-        logging.info(size)
-        # item = {}
-        #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
-        #item['name'] = response.xpath('//div[@id="name"]').get()
-        #item['description'] = response.xpath('//div[@id="description"]').get()
-        # return item
