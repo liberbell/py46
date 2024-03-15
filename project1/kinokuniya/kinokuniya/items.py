@@ -12,5 +12,5 @@ class BookItem(scrapy.Item):
     price = scrapy.Field()
     publisher = scrapy.Field()
     size = scrapy.Field()
-    page = scrapy.Field()
+    # page = scrapy.Field()
     isbn = scrapy.Field()
