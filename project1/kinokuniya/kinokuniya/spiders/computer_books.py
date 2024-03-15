@@ -62,7 +62,7 @@ class ComputerBooksSpider(CrawlSpider):
         loader.add_xpath("price", "//span[@itemprop='price']/text()")
         loader.add_xpath("publisher", "//a[contains(@href, 'publisher-key')]/text()")
         loader.add_xpath("size", "normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())")
-        loader.add_xpath("pages", "normalize-space(//ul[@class='dotted mt05 pt05']/li/text())")
+        # loader.add_xpath("pages", "normalize-space(//ul[@class='dotted mt05 pt05']/li/text())")
         loader.add_xpath("isbn", "//li[@itemprop='identifier']/text()")
 
         yield loader.load_item()
