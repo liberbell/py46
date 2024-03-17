@@ -4,6 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from ItemLoaders.processors import TakeFirst, MapCompose, Join
 
 
 class BookItem(scrapy.Item):
