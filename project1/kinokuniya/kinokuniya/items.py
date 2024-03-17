@@ -6,6 +6,16 @@
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
+def strip_yen(element):
+    if element:
+        return element.replace("¥", "")
+    return element
+
+def strip_comma(element):
+    if element:
+        return element.replace(",", "")
+    return element
+
 
 class BookItem(scrapy.Item):
     title = scrapy.Field(
@@ -15,7 +25,9 @@ class BookItem(scrapy.Item):
     author = scrapy.Field(
         output_processor = TakeFirst()
     )
-    price = scrapy.Field()
+    price = scrapy.Field(
+
+    )
     publisher = scrapy.Field()
     size = scrapy.Field()
     # page = scrapy.Field()
