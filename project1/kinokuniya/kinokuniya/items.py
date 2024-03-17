@@ -30,7 +30,8 @@ class BookItem(scrapy.Item):
         output_processor = TakeFirst()
     )
     price = scrapy.Field(
-
+        input_processor = MapCompose(strip_yen, strip_comma, convert_int),
+        output_processor = TakeFirst()
     )
     publisher = scrapy.Field()
     size = scrapy.Field()
