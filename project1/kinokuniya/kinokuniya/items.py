@@ -12,7 +12,9 @@ class BookItem(scrapy.Item):
         input_processor = MapCompose(str.lstrip),
         output_processor = Join(" ")
     )
-    author = scrapy.Field()
+    author = scrapy.Field(
+        output_processor = TakeFirst()
+    )
     price = scrapy.Field()
     publisher = scrapy.Field()
     size = scrapy.Field()
