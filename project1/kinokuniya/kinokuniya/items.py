@@ -19,8 +19,7 @@ def strip_comma(element):
 def convert_int(element):
     if element:
         return int(element)
-    return element
-
+    return 0
 
 class BookItem(scrapy.Item):
     title = scrapy.Field(
