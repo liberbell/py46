@@ -9,8 +9,8 @@ from itemloaders.processors import TakeFirst, MapCompose, Join
 
 class BookItem(scrapy.Item):
     title = scrapy.Field(
-        Input_processor = MapCompose(str.lstrip),
-        Output_processor = Join(" ")
+        input_processor = MapCompose(str.lstrip),
+        output_processor = Join(" ")
     )
     author = scrapy.Field()
     price = scrapy.Field()
