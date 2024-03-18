@@ -21,6 +21,11 @@ def convert_int(element):
         return int(element)
     return 0
 
+def get_size(element):
+    if element:
+        return element.split("／")[0].replace("サイズ ", "").replace("判", "")
+    return element
+
 class BookItem(scrapy.Item):
     title = scrapy.Field(
         input_processor = MapCompose(str.lstrip),
