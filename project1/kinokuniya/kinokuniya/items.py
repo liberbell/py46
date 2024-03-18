@@ -46,6 +46,9 @@ class BookItem(scrapy.Item):
     publisher = scrapy.Field(
         putput_processor = TakeFirst()
     )
-    size = scrapy.Field()
+    size = scrapy.Field(
+        input_processor = MapCompose(get_size),
+        output_processor = TakeFirst()
+    )
     # page = scrapy.Field()
     isbn = scrapy.Field()
