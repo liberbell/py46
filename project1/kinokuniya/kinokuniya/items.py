@@ -60,6 +60,6 @@ class BookItem(scrapy.Item):
     #     output_processor = TakeFirst()
     # )
     isbn = scrapy.Field(
-        input_processor = MapCompose(strip_item),
+        input_processor = MapCompose(strip_item, convert_int),
         output_processor = TakeFirst()
     )
