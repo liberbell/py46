@@ -13,7 +13,7 @@ class KinokuniyaPipeline:
     def process_item(self, item, spider):
         return item
 
-class CheckItempipeline:
+class CheckItemPipeline:
     def process_item(self, item, spider):
         if not item.get("isbn"):
             raise DropItem("Missing ISBN")
