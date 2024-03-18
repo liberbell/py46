@@ -59,4 +59,7 @@ class BookItem(scrapy.Item):
     #     input_processor = MapCompose(get_page, convert_int),
     #     output_processor = TakeFirst()
     # )
-    isbn = scrapy.Field()
+    isbn = scrapy.Field(
+        input_processor = MapCompose(strip_item),
+        output_processor = TakeFirst()
+    )
