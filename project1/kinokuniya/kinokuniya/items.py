@@ -26,6 +26,11 @@ def get_size(element):
         return element.split("／")[0].replace("サイズ ", "").replace("判", "")
     return element
 
+def get_page(element):
+    if element:
+        return element.split("／")[1].replace("サイズ ", "").replace("判", "")
+    return element
+
 class BookItem(scrapy.Item):
     title = scrapy.Field(
         input_processor = MapCompose(str.lstrip),
