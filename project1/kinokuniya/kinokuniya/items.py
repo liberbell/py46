@@ -31,6 +31,11 @@ def get_page(element):
         return element.split("／")[1].replace("ページ数 ", "").replace("p", "")
     return element
 
+def strip_item(element):
+    if element:
+        return element.replace("商品コード ", "")
+    return element
+
 class BookItem(scrapy.Item):
     title = scrapy.Field(
         input_processor = MapCompose(str.lstrip),
@@ -50,8 +55,8 @@ class BookItem(scrapy.Item):
         input_processor = MapCompose(get_size),
         output_processor = TakeFirst()
     )
-    page = scrapy.Field(
-        input_processor = MapCompose(get_page),
-        output_processor = TakeFirst()
-    )
+    # page = scrapy.Field(
+    #     input_processor = MapCompose(get_page, convert_int),
+    #     output_processor = TakeFirst()
+    # )
     isbn = scrapy.Field()
