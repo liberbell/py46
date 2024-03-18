@@ -33,7 +33,9 @@ class BookItem(scrapy.Item):
         input_processor = MapCompose(strip_yen, strip_comma, convert_int),
         output_processor = TakeFirst()
     )
-    publisher = scrapy.Field()
+    publisher = scrapy.Field(
+        putput_processor = TakeFirst()
+    )
     size = scrapy.Field()
     # page = scrapy.Field()
     isbn = scrapy.Field()
