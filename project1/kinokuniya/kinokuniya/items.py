@@ -28,7 +28,7 @@ def get_size(element):
 
 def get_page(element):
     if element:
-        return element.split("／")[1].replace("サイズ ", "").replace("判", "")
+        return element.split("／")[1].replace("ページ数 ", "").replace("p", "")
     return element
 
 class BookItem(scrapy.Item):
