@@ -22,3 +22,4 @@ class CheckItemPipeline:
 class MongoPipeline:
     def open_spider(self, spider):
         self.client = pymongo.MongoClient()
+        self.db = self.client("BOOKDB")
