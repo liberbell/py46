@@ -9,9 +9,9 @@ from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 
 
-class KinokuniyaPipeline:
-    def process_item(self, item, spider):
-        return item
+# class KinokuniyaPipeline:
+#     def process_item(self, item, spider):
+#         return item
 
 class CheckItemPipeline:
     def process_item(self, item, spider):
