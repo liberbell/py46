@@ -65,6 +65,7 @@ DOWNLOAD_DELAY = 1
 ITEM_PIPELINES = {
 #    'kinokuniya.pipelines.KinokuniyaPipeline': 300,
    'kinokuniya.pipelines.CheckItemPipeline': 100,
+   'kinokuniya.pipelines.MongoPipeline': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
