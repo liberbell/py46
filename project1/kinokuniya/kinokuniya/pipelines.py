@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
-
+import pymongo
 
 # class KinokuniyaPipeline:
 #     def process_item(self, item, spider):
@@ -18,3 +18,7 @@ class CheckItemPipeline:
         if not item.get("isbn"):
             raise DropItem("Missing ISBN")
         return item
+    
+class MongoPipeline:
+    def open_spider(self, spider):
+        self.client = pymongo.MongoClient()
