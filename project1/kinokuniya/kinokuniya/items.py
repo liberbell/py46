@@ -49,7 +49,7 @@ class BookItem(scrapy.Item):
         output_processor = TakeFirst()
     )
     publisher = scrapy.Field(
-        putput_processor = TakeFirst()
+        output_processor = TakeFirst()
     )
     size = scrapy.Field(
         input_processor = MapCompose(get_size),
