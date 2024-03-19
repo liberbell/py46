@@ -20,6 +20,14 @@ class CheckItemPipeline:
         return item
     
 class MongoPipeline:
+    collection_name = "computer_books"
+    
     def open_spider(self, spider):
         self.client = pymongo.MongoClient()
-        self.db = self.client("BOOKDB")
+        self.db = self.client["BOOKDB"]
+
+    def close_spider(self, spider):
+        self.client.close()
+
+    def process_item(self, item, spider):
+        self.db[]
