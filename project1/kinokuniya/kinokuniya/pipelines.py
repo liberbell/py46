@@ -68,4 +68,4 @@ values(?, ?, ?, ?, ?, ?, ?)
         return item
     
     def close_spider(self, spider):
-        
+        self.connection.close()
