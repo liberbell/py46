@@ -56,4 +56,7 @@ class SQLitePipeline:
         self.c.execute("""
 INSERT INTO computer_books (title, author, price, publisher, size, isbn)
 values(?, ?, ?, ?, ?, ?, ?)
-""")
+        """, (
+            item.get("title"),
+            item.get("author"),
+        ))
