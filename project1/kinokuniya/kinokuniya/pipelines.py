@@ -66,3 +66,6 @@ values(?, ?, ?, ?, ?, ?, ?)
         ))
         self.connection.commit()
         return item
+    
+    def close_spider(self, spider):
+        
