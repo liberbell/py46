@@ -36,3 +36,10 @@ class MongoPipeline:
 class SQLitePipeline:
     def open_spider(self, spider):
         self.connection = sqlite3.connect("BOOKDB.db")
+        self.c = self.connection.cursor()
+        self.c.execute("""
+CREATE TABLE computer_books(
+                       title TEXT,
+                       author TEXT,
+)
+                       """)
