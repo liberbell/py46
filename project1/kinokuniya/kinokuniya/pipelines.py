@@ -51,3 +51,8 @@ class SQLitePipeline:
             self.connection.commit()
         except sqlite3.OperationalError:
             pass
+
+    def process_item(self, item, spider):
+        self.c.execute("""
+INSERT INTO computer_books (title, author, price, publisher, size, isbn)
+""")
