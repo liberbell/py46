@@ -59,4 +59,8 @@ values(?, ?, ?, ?, ?, ?, ?)
         """, (
             item.get("title"),
             item.get("author"),
+            item.get("price"),
+            item.get("publisher"),
+            item.get("size"),
+            item.get("isbn")
         ))
