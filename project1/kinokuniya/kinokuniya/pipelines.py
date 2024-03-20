@@ -8,6 +8,7 @@
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 import pymongo
+import sqlite3
 
 # class KinokuniyaPipeline:
 #     def process_item(self, item, spider):
@@ -31,3 +32,7 @@ class MongoPipeline:
 
     def process_item(self, item, spider):
         self.db[self.collection_name].insert(dict(item))
+
+class SQLitePipeline:
+    def open_spider(self, spider):
+        
