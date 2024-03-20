@@ -41,5 +41,8 @@ class SQLitePipeline:
 CREATE TABLE computer_books(
                        title TEXT,
                        author TEXT,
+                       price INTEGER,
+                       publisher TEXT,
+                       page INTEGER,
 )
                        """)
