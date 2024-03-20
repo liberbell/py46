@@ -64,3 +64,5 @@ values(?, ?, ?, ?, ?, ?, ?)
             item.get("size"),
             item.get("isbn")
         ))
+        self.connection.commit()
+        return item
