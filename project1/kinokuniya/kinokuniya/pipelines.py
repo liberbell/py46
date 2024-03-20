@@ -43,6 +43,7 @@ CREATE TABLE computer_books(
                        author TEXT,
                        price INTEGER,
                        publisher TEXT,
-                       page INTEGER,
+                       size TEXT,
+                       isbn INTEGER primary key
 )
                        """)
