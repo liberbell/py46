@@ -55,4 +55,5 @@ class SQLitePipeline:
     def process_item(self, item, spider):
         self.c.execute("""
 INSERT INTO computer_books (title, author, price, publisher, size, isbn)
+values(?, ?, ?, ?, ?, ?, ?)
 """)
