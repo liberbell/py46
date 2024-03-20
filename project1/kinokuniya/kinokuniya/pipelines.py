@@ -23,10 +23,10 @@ class MongoPipeline:
     collection_name = "computer_books"
 
     def open_spider(self, spider):
-        self.client = pymongo.MongoClient("mongodb+srv://mongo_user:Wx5HcS6Edw1VjDq5@cluster0.4zuzwrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+        self.client = pymongo.MongoClient("mongodb+srv://mongo_user:@cluster0.4zuzwrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
         self.db = self.client["BOOKDB"]
 
-    def close_spider(self, spider):
+    def close_spider(self, item, spider):
         self.client.close()
 
     def process_item(self, item, spider):
