@@ -67,6 +67,7 @@ ITEM_PIPELINES = {
    'kinokuniya.pipelines.CheckItemPipeline': 100,
 #    'kinokuniya.pipelines.MongoPipeline': 200,
    'kinokuniya.pipelines.SQLitePipeline': 200,
+   'scrapy.pipelines.Images.ImagesPipeline': 300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
