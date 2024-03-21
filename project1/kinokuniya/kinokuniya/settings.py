@@ -67,7 +67,7 @@ ITEM_PIPELINES = {
    'kinokuniya.pipelines.CheckItemPipeline': 100,
 #    'kinokuniya.pipelines.MongoPipeline': 200,
 #    'kinokuniya.pipelines.SQLitePipeline': 200,
-   'scrapy.pipelines.Images.ImagesPipeline': 300
+   'scrapy.pipelines.images.ImagesPipeline': 300
 }
 
 IMAGES_STORE = r"book_images"
