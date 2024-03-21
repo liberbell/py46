@@ -63,3 +63,5 @@ class BookItem(scrapy.Item):
         input_processor = MapCompose(strip_item, convert_int),
         output_processor = TakeFirst()
     )
+
+    image_urls = scrapy.Field()
