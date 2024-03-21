@@ -64,7 +64,7 @@ class ComputerBooksSpider(CrawlSpider):
         loader.add_xpath("size", "normalize-space(//ul[@class='dotted mt05 pt05']/li[1]/text())")
         # loader.add_xpath("pages", "normalize-space(//ul[@class='dotted mt05 pt05']/li/text())")
         loader.add_xpath("isbn", "//li[@itemprop='identifier']/text()")
-        loader.add_xpath("image_urls", response.xpath("//img[@itemprop='image']/@src").get())
+        loader.add_value("image_urls", response.urljoin(response.xpath("//img[@itemprop='image']/@src").get()))
 
         yield loader.load_item()
 
