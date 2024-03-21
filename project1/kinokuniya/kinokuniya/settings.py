@@ -66,9 +66,11 @@ ITEM_PIPELINES = {
 #    'kinokuniya.pipelines.KinokuniyaPipeline': 300,
    'kinokuniya.pipelines.CheckItemPipeline': 100,
 #    'kinokuniya.pipelines.MongoPipeline': 200,
-   'kinokuniya.pipelines.SQLitePipeline': 200,
+#    'kinokuniya.pipelines.SQLitePipeline': 200,
    'scrapy.pipelines.Images.ImagesPipeline': 300
 }
+
+IMAGES_STORE = "book_images"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
