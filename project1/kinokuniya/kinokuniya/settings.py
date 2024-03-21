@@ -70,7 +70,8 @@ ITEM_PIPELINES = {
    'scrapy.pipelines.Images.ImagesPipeline': 300
 }
 
-IMAGES_STORE = "book_images"
+IMAGES_STORE = r"book_images"
+IMAGES_URLS_FIELD = "image_urls"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
