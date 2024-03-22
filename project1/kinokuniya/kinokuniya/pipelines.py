@@ -11,7 +11,7 @@ import pymongo
 import sqlite3
 from scrapy.pipelines.images import ImagesPipeline
 
-class CustomImagePipeline(ImagesPipeline):
+class customImagePipeline(ImagesPipeline):
     def file_path(self, request, response=None, info=None, *, item=None):
         return request.url.split("/")[-1]
 
