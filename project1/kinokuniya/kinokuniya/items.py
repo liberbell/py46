@@ -7,6 +7,13 @@ import functools
 import hashlib
 from contextlib import suppress
 from io import BytesIO
+
+from itemadapter import ItemAdapter
+from PIL import Image
+
+from scrapy.exceptions import DropItem
+from scrapy.http import Request
+from scrapy.pipelines.files import FileException, FilePipeline
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
