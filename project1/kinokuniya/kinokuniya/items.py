@@ -21,22 +21,22 @@
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
-class NoimageDrop(DropItem):
-    pass
+# class NoimageDrop(DropItem):
+#     pass
 
-class ImageException(FileException):
-    pass
+# class ImageException(FileException):
+#     pass
 
-class ImagePipeline(FilePipeline):
+# class ImagePipeline(FilePipeline):
     
 
-    MEDIA_NAME = "image"
-    MIN_WIDTH = 0
-    MIN_HEIGHT = 0
-    EXPIRES = 90
-    THUMBS = {}
-    DEFAULT_IMAGES_URL_FIELD = "image_urls"
-    DEFAULT_IMAGES_RESULT_FIELD = "images"
+    # MEDIA_NAME = "image"
+    # MIN_WIDTH = 0
+    # MIN_HEIGHT = 0
+    # EXPIRES = 90
+    # THUMBS = {}
+    # DEFAULT_IMAGES_URL_FIELD = "image_urls"
+    # DEFAULT_IMAGES_RESULT_FIELD = "images"
 
 def strip_yen(element):
     if element:
