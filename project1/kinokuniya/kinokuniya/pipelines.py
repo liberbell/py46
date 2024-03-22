@@ -9,6 +9,11 @@ from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 import pymongo
 import sqlite3
+from scrapy.pipelines.images import ImagesPipeline
+
+class CustomImagePipeline(ImagesPipeline):
+    def file_path(self, request, response=None, info=None, *, item=None):
+        return request.url.split("/")[-1]
 
 # class KinokuniyaPipeline:
 #     def process_item(self, item, spider):
