@@ -15,7 +15,7 @@ class customImagePipeline(ImagesPipeline):
     def file_path(self, request, response=None, info=None, *, item=None):
         name = item.get("isbn") + ".jpg"
         filename = r"computer_books\\" + name
-        print(filename)
+        print("filename:", filename)
         return filename
 
 # class KinokuniyaPipeline:
