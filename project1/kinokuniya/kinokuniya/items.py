@@ -21,6 +21,9 @@ from scrapy.utils.python import to_bytes
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
+class NoimageDrop(DropItem):
+    pass
+
 def strip_yen(element):
     if element:
         return element.replace("¥", "")
