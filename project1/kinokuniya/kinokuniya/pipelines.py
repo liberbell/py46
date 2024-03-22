@@ -13,7 +13,10 @@ from scrapy.pipelines.images import ImagesPipeline
 
 class customImagePipeline(ImagesPipeline):
     def file_path(self, request, response=None, info=None, *, item=None):
-        return request.url.split("/")[-1]
+        name = item.get("isbn") + ".jpg"
+        filename = r"computer_books\\" + name
+        print(filename)
+        return filename
 
 # class KinokuniyaPipeline:
 #     def process_item(self, item, spider):
