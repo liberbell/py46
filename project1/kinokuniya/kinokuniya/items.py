@@ -35,6 +35,8 @@ class ImagePipeline(FilePipeline):
     MIN_HEIGHT = 0
     EXPIRES = 90
     THUMBS = {}
+    DEFAULT_IMAGES_URL_FIELD = "image_urls"
+    DEFAULT_IMAGES_RESULT_FIELD = "images"
 
 def strip_yen(element):
     if element:
