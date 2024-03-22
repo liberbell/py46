@@ -24,6 +24,12 @@ from itemloaders.processors import TakeFirst, MapCompose, Join
 class NoimageDrop(DropItem):
     pass
 
+class ImageException(FileException):
+    pass
+
+class ImagePipeline(FilePipeline):
+    pass
+
 def strip_yen(element):
     if element:
         return element.replace("¥", "")
