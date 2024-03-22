@@ -3,6 +3,10 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
+import functools
+import hashlib
+from contextlib import suppress
+from io import BytesIO
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
