@@ -14,6 +14,10 @@ from PIL import Image
 from scrapy.exceptions import DropItem
 from scrapy.http import Request
 from scrapy.pipelines.files import FileException, FilePipeline
+from scrapy.settings import Settings
+from scrapy.utils.misc import md5sum
+from scrapy.utils.python import to_bytes
+
 import scrapy
 from itemloaders.processors import TakeFirst, MapCompose, Join
 
