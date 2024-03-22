@@ -28,7 +28,13 @@ class ImageException(FileException):
     pass
 
 class ImagePipeline(FilePipeline):
-    pass
+    
+
+    MEDIA_NAME = "image"
+    MIN_WIDTH = 0
+    MIN_HEIGHT = 0
+    EXPIRES = 90
+    THUMBS = {}
 
 def strip_yen(element):
     if element:
