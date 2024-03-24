@@ -16,5 +16,5 @@ search_bar.submit()
 sleep(2)
 for elem in driver.find_elements_by_xpath("//h2[not(contains(@class,'b_topTitleAd'))]/a"):
     print(elem.text)
-    print(elem.get_attributes("href"))
+    print(elem.get_attribute("href"))
 # /html/body/div[2]/div/div[3]/div[2]/form/label/svg/path
