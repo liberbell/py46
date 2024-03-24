@@ -1,5 +1,9 @@
 from selenium import webdriver
 from time import sleep
+from selenium.webdriver.chrome.options import Options
+
+options = Options()
+options.add_argument("--headless")
 
 driver = webdriver.Chrome(executable_path='./chromedriver')
 driver.get("https://www.bing.com/")
