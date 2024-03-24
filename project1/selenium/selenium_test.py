@@ -32,4 +32,6 @@ while True:
     if i > 4:
         break
 
+driver.close()
+
 # /html/body/div[2]/div/div[3]/div[2]/form/label/svg/path
