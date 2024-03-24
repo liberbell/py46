@@ -10,6 +10,7 @@ search_bar.send_keys("python")
 # search_btn = driver.find_element_by_xpath('//path[@class="gray70_fill_sb"]')
 # search_btn = driver.find_element_by_xpath('//label/svg')
 search_btn = driver.find_element_by_xpath("//label[@for='sb_form_go']")
-search_btn.click()
+# search_btn.click()
+search_bar.submit()
 
 # /html/body/div[2]/div/div[3]/div[2]/form/label/svg/path
