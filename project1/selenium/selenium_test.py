@@ -23,4 +23,7 @@ sleep(2)
 for elem in driver.find_elements_by_xpath("//h2[not(contains(@class,'b_topTitleAd'))]/a"):
     print(elem.text)
     print(elem.get_attribute("href"))
+
+next_link = driver.find_element_by_xpath("//a[@title='次のページ']")
+driver.get(next_link)
 # /html/body/div[2]/div/div[3]/div[2]/form/label/svg/path
