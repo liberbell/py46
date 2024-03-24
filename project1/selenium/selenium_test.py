@@ -8,6 +8,8 @@ options.add_argument("--headless")
 driver = webdriver.Chrome(executable_path='./chromedriver', options=options)
 driver.get("https://www.bing.com/")
 
+sleep(1)
+
 search_bar = driver.find_element_by_id("sb_form_q")
 search_bar.send_keys("python")
 
