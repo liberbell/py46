@@ -29,7 +29,7 @@ while True:
     next_link = driver.find_element_by_xpath("//a[@title='次のページ']")
     driver.get(next_link.get_attribute("href"))
     i += 1
-    if 1 > 4:
+    if i > 4:
         break
 
 # /html/body/div[2]/div/div[3]/div[2]/form/label/svg/path
