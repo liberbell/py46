@@ -15,13 +15,13 @@ class GooglePythonSpider(scrapy.Spider):
 
     def parse(self, response):
         driver = response.meta["driver"]
-        driver.save_screenshot("01_open_google.png")
+        # driver.save_screenshot("01_open_google.png")
 
         search_bar = driver.find_element_by_xpath("//textarea[@name='q']")
         search_bar.send_keys("python")
         sleep(1)
 
-        driver.save_screenshot("02_after_input.png")
+        # driver.save_screenshot("02_after_input.png")
 
         search_bar.send_keys(Keys.ENTER)
         sleep(1)
