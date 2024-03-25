@@ -2,6 +2,7 @@ import scrapy
 from scrapy_selenium import SeleniumRequest
 from time import sleep
 from selenium.webdriver.common.keys import Keys
+from scrapy.selector import Selector
 
 class GooglePythonSpider(scrapy.Spider):
     name = "google_python"
@@ -30,4 +31,7 @@ class GooglePythonSpider(scrapy.Spider):
         h = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(w, h)
 
-        driver.save_screenshot("03_after_enter.png")
+        # driver.save_screenshot("03_after_enter.png")
+
+        html = driver.page_source
+        sel = Selector(text=html)
