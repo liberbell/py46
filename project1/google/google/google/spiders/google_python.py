@@ -26,4 +26,7 @@ class GooglePythonSpider(scrapy.Spider):
         search_bar.send_keys(Keys.ENTER)
         sleep(1)
 
+        w = driver.execute_script("return document.body.scrollWidth")
+        h = driver.execute_script("return document.body.scrollHeight")
+
         driver.save_screenshot("03_after_enter.png")
