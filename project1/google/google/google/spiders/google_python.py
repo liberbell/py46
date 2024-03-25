@@ -1,5 +1,6 @@
 import scrapy
 from scrapy_selenium import SeleniumRequest
+from time import sleep
 
 class GooglePythonSpider(scrapy.Spider):
     name = "google_python"
@@ -15,4 +16,6 @@ class GooglePythonSpider(scrapy.Spider):
         driver = response.meta["driver"]
         driver.save_screenshot("01_open_google.png")
 
-        driver.find_element_by_xpath("//textarea[@name='q']")
+        search_bar = driver.find_element_by_xpath("//textarea[@name='q']")
+        search_bar.send_keys("python")
+        sleep(1)
