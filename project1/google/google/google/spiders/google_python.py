@@ -7,8 +7,8 @@ class GooglePythonSpider(scrapy.Spider):
     def start_requests(self):
         yield SeleniumRequest(
             url='https://www.google.co.jp',
-            wait_time = 3,
-            callback = self.parse
+            wait_time=3,
+            callback=self.parse
         )
 
     def parse(self, response):
