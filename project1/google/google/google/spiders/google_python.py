@@ -36,4 +36,8 @@ class GooglePythonSpider(scrapy.Spider):
         html = driver.page_source
         sel = Selector(text=html)
         
-        for elem in driver.xpath("//h3/parent::a")
+        for elem in driver.xpath("//h3/parent::a"):
+            yield {
+                "title": elem.xpath(".//child::h3/text()").get(),
+                "url": elem.xpath(".//@href").get()
+            }
