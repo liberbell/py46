@@ -35,3 +35,5 @@ class GooglePythonSpider(scrapy.Spider):
 
         html = driver.page_source
         sel = Selector(text=html)
+        
+        for elem in driver.xpath("//h3/parent::a")
