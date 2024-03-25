@@ -28,5 +28,6 @@ class GooglePythonSpider(scrapy.Spider):
 
         w = driver.execute_script("return document.body.scrollWidth")
         h = driver.execute_script("return document.body.scrollHeight")
+        driver.set_window_size(w, h)
 
         driver.save_screenshot("03_after_enter.png")
