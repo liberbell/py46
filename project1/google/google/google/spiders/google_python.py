@@ -24,3 +24,6 @@ class GooglePythonSpider(scrapy.Spider):
         driver.save_screenshot("02_after_input.png")
 
         search_bar.send_keys(keys.ENTER)
+        sleep(1)
+
+        driver.save_screenshot("03_after_enter.png")
