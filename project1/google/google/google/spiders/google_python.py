@@ -19,3 +19,5 @@ class GooglePythonSpider(scrapy.Spider):
         search_bar = driver.find_element_by_xpath("//textarea[@name='q']")
         search_bar.send_keys("python")
         sleep(1)
+
+        driver.save_screenshot("02_after_input.png")
