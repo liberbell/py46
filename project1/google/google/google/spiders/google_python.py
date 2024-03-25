@@ -14,3 +14,5 @@ class GooglePythonSpider(scrapy.Spider):
     def parse(self, response):
         driver = response.meta["driver"]
         driver.save_screenshot("01_open_google.png")
+
+        driver.find_element_by_xpath("//textarea[@name='q']")
