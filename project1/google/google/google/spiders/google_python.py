@@ -1,7 +1,7 @@
 import scrapy
 from scrapy_selenium import SeleniumRequest
 from time import sleep
-from selenium.webdriver.common.keys import keys
+from selenium.webdriver.common.keys import Keys
 
 class GooglePythonSpider(scrapy.Spider):
     name = "google_python"
@@ -23,7 +23,7 @@ class GooglePythonSpider(scrapy.Spider):
 
         driver.save_screenshot("02_after_input.png")
 
-        search_bar.send_keys(keys.ENTER)
+        search_bar.send_keys(Keys.ENTER)
         sleep(1)
 
         driver.save_screenshot("03_after_enter.png")
