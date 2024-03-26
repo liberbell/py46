@@ -49,10 +49,8 @@ class GooglePythonSpider(scrapy.Spider):
 
     def parse_next(self, response):
         driver = response.meta["driver"]
-        html = driver.page_source
-        sel = Selector(text=html)
         
-        for elem in sel.xpath("//h3/parent::a"):
+        for elem in response.xpath("//h3/parent::a"):
             yield {
                 "title": elem.xpath(".//child::h3/text()").get(),
                 "url": elem.xpath(".//@href").get()
