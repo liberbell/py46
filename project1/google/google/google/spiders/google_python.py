@@ -46,3 +46,14 @@ class GooglePythonSpider(scrapy.Spider):
             waittime = 1,
             callback = self.parse_next
         )
+
+    def parse_next(self, response):
+        driver = response.meta["driver"]
+        html = driver.page_source
+        sel = Selector(text=html)
+        
+        for elem in sel.xpath("//h3/parent::a"):
+            yield {
+                "title": elem.xpath(".//child::h3/text()").get(),
+                "url": elem.xpath(".//@href").get()
+            }
