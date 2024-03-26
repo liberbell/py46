@@ -57,3 +57,10 @@ class GooglePythonSpider(scrapy.Spider):
             }
         
         next_page = response.xpath("//a[@id='pnnext']/@href").get()
+        if next_page:
+            next_url = response.urljoin(next_page)
+            yield SeleniumRequest(
+                url = next_url,
+                waittime = 1,
+                callback = self.parse_next
+            )
