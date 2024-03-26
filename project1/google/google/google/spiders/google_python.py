@@ -55,3 +55,5 @@ class GooglePythonSpider(scrapy.Spider):
                 "title": elem.xpath(".//child::h3/text()").get(),
                 "url": elem.xpath(".//@href").get()
             }
+        
+        next_page = response.xpath("//a[@id='pnnext']/@href").get()
