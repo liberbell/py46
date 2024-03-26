@@ -33,11 +33,16 @@ class GooglePythonSpider(scrapy.Spider):
 
         # driver.save_screenshot("03_after_enter.png")
 
-        html = driver.page_source
-        sel = Selector(text=html)
+        # html = driver.page_source
+        # sel = Selector(text=html)
         
-        for elem in sel.xpath("//h3/parent::a"):
-            yield {
-                "title": elem.xpath(".//child::h3/text()").get(),
-                "url": elem.xpath(".//@href").get()
-            }
+        # for elem in sel.xpath("//h3/parent::a"):
+        #     yield {
+        #         "title": elem.xpath(".//child::h3/text()").get(),
+        #         "url": elem.xpath(".//@href").get()
+        #     }
+        yield SeleniumRequest(
+            url = driver.current_url,
+            waittime = 1,
+            callback = self.parse_next
+        )
