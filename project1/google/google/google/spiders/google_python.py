@@ -43,7 +43,7 @@ class GooglePythonSpider(scrapy.Spider):
         #     }
         yield SeleniumRequest(
             url=driver.current_url,
-            waittime=1,
+            wait_time=1,
             callback=self.parse_next
         )
 
@@ -61,6 +61,6 @@ class GooglePythonSpider(scrapy.Spider):
             next_url = response.urljoin(next_page)
             yield SeleniumRequest(
                 url=next_url,
-                waittime=1,
+                wait_time=1,
                 callback=self.parse_next
             )
