@@ -1,3 +1,66 @@
-[
-
+[][
+    {
+        "title": "python.jp: プログラミング言語 Python 総合情報サイト",
+        "url": "https://www.python.jp/"
+    },
+    {
+        "title": "Welcome to Python.org",
+        "url": "https://www.python.org/"
+    },
+    {
+        "title": "初心者からPythonを実務で使えるためのスキル習得時間は？お勧めの勉強 ...",
+        "url": "https://freelance-start.com/articles/408#:~:text=%E3%81%A3%E3%81%A6%E4%BD%95%EF%BC%9F-,2.Python%E3%81%AE%E7%BF%92%E5%BE%97%E6%99%82%E9%96%93%E3%81%AE%E7%9B%AE%E5%AE%89,%E8%80%83%E3%81%88%E3%82%8B%E3%81%AE%E3%81%8B%E3%81%8C%E9%87%8D%E8%A6%81%E3%81%A7%E3%81%99%E3%80%82"
+    },
+    {
+        "title": "Pythonでできること6つ！活用事例やおすすめ学習方法まで解説！",
+        "url": "https://www.dhw.ac.jp/now/list/howtobe/python/#:~:text=%E6%B1%8E%E7%94%A8%E6%80%A7%E3%81%8C%E9%AB%98%E3%81%8F%E8%89%AF%E3%81%84,%E3%81%82%E3%81%BE%E3%82%8A%E5%90%91%E3%81%84%E3%81%A6%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82"
+    },
+    {
+        "title": "Pythonでできること6選！仕事への活用方法から学習方法まで解説",
+        "url": "https://x-tech.pasona.co.jp/media/detail.html?p=2104#:~:text=Python%E3%81%AE%E5%BC%B7%E3%81%BF%E3%81%A8%E3%81%97%E3%81%A6%E3%80%81%E6%95%B0%E5%80%A4,%E3%83%87%E3%83%BC%E3%82%BF%E5%87%A6%E7%90%86%E3%81%8C%E5%8F%AF%E8%83%BD%E3%81%A7%E3%81%99%E3%80%82"
+    },
+    {
+        "title": "【Python入門】できることや基本情報を解説（プログラミング言語紹介）",
+        "url": "https://online.dhw.co.jp/kuritama/about-python/#:~:text=Python%E3%81%AF%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%A7,%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%84%E3%81%88%E3%82%8B%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%80%82"
+    },
+    {
+        "title": "Python",
+        "url": "https://ja.wikipedia.org/wiki/Python"
+    },
+    {
+        "title": "Pythonとは？プログラミング言語の用途を初心者向けに解説",
+        "url": "https://coeteco.jp/articles/10661"
+    },
+    {
+        "title": "Pythonとは？大人気プログラミング言語のメリットや活用事例を ...",
+        "url": "https://www.internetacademy.jp/it/programming/programming-basic/what-is-python.html"
+    },
+    {
+        "title": "Download Python",
+        "url": "https://www.python.org/downloads/"
+    },
+    {
+        "title": "【入門】Pythonとは｜活用事例やメリット、できること、学習方法 ...",
+        "url": "https://www.skillupai.com/blog/tech/about-python/"
+    },
+    {
+        "title": "ゼロからのPython入門講座",
+        "url": "https://www.python.jp/train/index.html"
+    },
+    {
+        "title": "Python（パイソン）とは？人気プログラミング言語の特徴・活用 ...",
+        "url": "https://udemy.benesse.co.jp/development/python-work/python.html"
+    },
+    {
+        "title": "Pythonとは？特徴や世の中における活用事例、学習方法 ...",
+        "url": "https://www.rd.ntt/se/media/article/0074.html"
+    },
+    {
+        "title": null,
+        "url": "https://www.google.co.jp/search?q=python&sca_esv=4ec0a258a4d8e3e4&source=hp&ei=m14DZuKHCP_n2roPx_iI2AI&iflsig=ANes7DEAAAAAZgNsq2uMnu973C1SHEFKyoK4zzZJmFNs&uact=5&oq=python&gs_lp=Egdnd3Mtd2l6IgZweXRob24yBRAAGIAEMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBSI4IUABYBXAAeACQAQGYAXCgAYYDqgEDMi4yuAEDyAEA-AEBmAIDoAKdApgDAJIHAzIuMaAHgA0&sclient=gws-wiz&aomd=1"
+    },
+    {
+        "title": null,
+        "url": null
+    }
 ]
