@@ -27,5 +27,5 @@ class LuxuryWatchSpider(scrapy.Spider):
         h = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(w, h)
 
-        driver.save_screenshot("antenna.png")
+        driver.save_screenshot("antenna2.png")
 
