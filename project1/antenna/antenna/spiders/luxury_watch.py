@@ -24,7 +24,7 @@ class LuxuryWatchSpider(scrapy.Spider):
         search_button.submit()
         sleep(2)
 
-        scroll_count = 10
+        scroll_count = 20
         for i in range(scroll_count):
             driver.find_element_by_tag_name("body").send_keys(Keys.END)
             sleep(1)
@@ -33,5 +33,5 @@ class LuxuryWatchSpider(scrapy.Spider):
         h = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(w, h)
 
-        driver.save_screenshot("antenna2.png")
+        driver.save_screenshot("antenna3.png")
 
