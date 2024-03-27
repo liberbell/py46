@@ -21,6 +21,7 @@ class LuxuryWatchSpider(scrapy.Spider):
 
         search_button = driver.find_element_by_xpath("//input[@id='search-button']")
         search_button.submit()
+        sleep(2)
 
         w = driver.execute_script("return document.body.scrollWidth")
         h = driver.execute_script("return document.body.scrollHeight")
