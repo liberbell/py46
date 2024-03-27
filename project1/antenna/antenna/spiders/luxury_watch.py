@@ -2,6 +2,7 @@ import scrapy
 from scrapy_selenium import SeleniumRequest
 from time import sleep
 from selenium.webdriver.common.keys import Keys
+from scrapy.selector import Selector
 
 class LuxuryWatchSpider(scrapy.Spider):
     name = "luxury_watch"
@@ -34,4 +35,11 @@ class LuxuryWatchSpider(scrapy.Spider):
         driver.set_window_size(w, h)
 
         driver.save_screenshot("antenna3.png")
+
+        html = driver.page_source
+        selector = Selector(text=html)
+
+
+        //div[@class='article-view feed-article-view album-article']//div[@class='title']
+        //div[@class='article-view feed-article-view album-article']//a[@class='thumbnail-content']/@href
 
