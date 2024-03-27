@@ -1,10 +1,16 @@
 import scrapy
-
+from scrapy_selenium import SeleniumRequest
 
 class LuxuryWatchSpider(scrapy.Spider):
     name = "luxury_watch"
-    allowed_domains = ["antenna.jp"]
-    start_urls = ["https://antenna.jp"]
+
+    def start_requests(self):
+        yield SeleniumRequest(
+            url="https://antenna.jp",
+            wait_time=2,
+            screenshot=False,
+            callback=self.parse
+        )
 
     def parse(self, response):
         pass
