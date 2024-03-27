@@ -15,3 +15,4 @@ class LuxuryWatchSpider(scrapy.Spider):
     def parse(self, response):
         driver = response.meta["driver"]
         w = driver.execute_script("return document.body.scrollWidth")
+        h = driver.execute_script("return document.body.scrollHeight")
