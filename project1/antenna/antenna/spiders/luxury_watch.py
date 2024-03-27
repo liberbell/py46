@@ -13,4 +13,5 @@ class LuxuryWatchSpider(scrapy.Spider):
         )
 
     def parse(self, response):
-        pass
+        driver = response.meta["driver"]
+        w = driver.execute_script("return document.body.scrollWidth")
