@@ -14,8 +14,13 @@ class LuxuryWatchSpider(scrapy.Spider):
 
     def parse(self, response):
         driver = response.meta["driver"]
+
+        search_text = driver.find_element_by_xpath("//input[@id='search-input']")
+        search_button = driver.find_element_by_xpath("//input[@id='search-button']")
+
         w = driver.execute_script("return document.body.scrollWidth")
         h = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(w, h)
 
         driver.save_screenshot("antenna.png")
+
