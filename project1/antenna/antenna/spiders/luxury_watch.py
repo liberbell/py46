@@ -1,6 +1,7 @@
 import scrapy
 from scrapy_selenium import SeleniumRequest
 from time import sleep
+from selenium.webdriver.common.keys import Keys
 
 class LuxuryWatchSpider(scrapy.Spider):
     name = "luxury_watch"
@@ -22,6 +23,9 @@ class LuxuryWatchSpider(scrapy.Spider):
         search_button = driver.find_element_by_xpath("//input[@id='search-button']")
         search_button.submit()
         sleep(2)
+
+        driver.find_element_by_tag_name("body").send_keys(Keys.END)
+        sleep(1)
 
         w = driver.execute_script("return document.body.scrollWidth")
         h = driver.execute_script("return document.body.scrollHeight")
