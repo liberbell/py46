@@ -16,3 +16,4 @@ class LuxuryWatchSpider(scrapy.Spider):
         driver = response.meta["driver"]
         w = driver.execute_script("return document.body.scrollWidth")
         h = driver.execute_script("return document.body.scrollHeight")
+        driver.set_window_size(w, h)
