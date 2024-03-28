@@ -9,7 +9,7 @@ class LoginSpider(scrapy.Spider):
 
     def parse(self, response):
         csrf_token = response.xpath("//input[@name='csrf_token']/@value").get()
-        yield FormRequest.form_response(
+        yield FormRequest.from_response(
             response,
             formxpath="//form",
             formdata={
