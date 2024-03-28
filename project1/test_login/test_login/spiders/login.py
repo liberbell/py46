@@ -1,4 +1,5 @@
 import scrapy
+from scrapy import FormRequest
 
 
 class LoginSpider(scrapy.Spider):
@@ -8,3 +9,13 @@ class LoginSpider(scrapy.Spider):
 
     def parse(self, response):
         csrf_token = response.xpath("//input[@name='csrf_token']/@value").get()
+        yield FormRequest.form_response(
+            response,
+            formxpath="//form",
+            formdata={
+                "csrf_token": csrf_token,
+                "username": "user01",
+                "password": "password01"
+            },
+            callback=self.after_login
+        )
