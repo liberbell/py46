@@ -34,12 +34,17 @@ class LuxuryWatchSpider(scrapy.Spider):
         h = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(w, h)
 
-        driver.save_screenshot("antenna3.png")
+        # driver.save_screenshot("antenna3.png")
 
         html = driver.page_source
         selector = Selector(text=html)
 
+        watches = selector.xpath("//div[@class='article-view feed-article-view album-article']")
 
-        //div[@class='article-view feed-article-view album-article']//div[@class='title']
-        //div[@class='article-view feed-article-view album-article']//a[@class='thumbnail-content']/@href
+        for watch in watches:
+            yield {
+                "title": watch.xpath(".//div[@class='title']/text()").get(),
+                "url": watch.xpath(".//a[@class='thumbnail-content']/@href").get()
+            }
+
 
