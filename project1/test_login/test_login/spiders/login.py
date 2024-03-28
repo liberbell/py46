@@ -7,4 +7,4 @@ class LoginSpider(scrapy.Spider):
     start_urls = ["https://quotes.toscrape.com/login"]
 
     def parse(self, response):
-        pass
+        csrf_token = response.xpath("//input[@name='csrf_token']/@value").get()
