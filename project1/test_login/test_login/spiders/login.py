@@ -19,3 +19,9 @@ class LoginSpider(scrapy.Spider):
             },
             callback=self.after_login
         )
+
+    def after_login(self, response):
+        if response.xpath("//a[@href='/logout']/text()").get():
+            print("Login succeeded")
+        else:
+            print("Login failed")
